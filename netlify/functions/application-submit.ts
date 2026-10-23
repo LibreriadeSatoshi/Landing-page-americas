@@ -48,7 +48,7 @@ function buildIdentifyAttributes(
     email: getString(p.email).toLowerCase(),
     name: str('fullName'),
     application_submitted: true,
-    application_source: 'americas_ambassador',
+    application_source: 'africa_ambassador',
     application_intent,
     locale,
     full_name: str('fullName'),
@@ -87,7 +87,7 @@ function buildEventData(p: Record<string, unknown>): Record<string, unknown> {
   return {
     ...rest,
     form_label:
-      typeof p.form === 'string' ? p.form : 'Americas Bitcoin Education — Ambassador Application',
+      typeof p.form === 'string' ? p.form : 'Africa Bitcoin Education — Ambassador Application',
     client_timestamp: typeof p.timestamp === 'string' ? p.timestamp : undefined,
   };
 }

@@ -211,7 +211,7 @@ export default function ApplicationWizard({
         body: JSON.stringify({
           // Integration identifier read by Customer.io as form_label, not interface copy: keep it
           // byte-identical to the default in netlify/functions/application-submit.ts.
-          form: 'Americas Bitcoin Education \u2014 Ambassador Application',
+          form: 'Africa Bitcoin Education \u2014 Ambassador Application',
           applicationIntent,
           ...data,
           locale,

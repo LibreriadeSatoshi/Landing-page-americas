@@ -92,7 +92,7 @@ export default async (req: Request): Promise<Response> => {
       body: JSON.stringify({
         email,
         newsletter_subscribed: true,
-        signup_source: 'americas_ambassador',
+        signup_source: 'africa_ambassador',
         locale,
         created_at: Math.floor(Date.now() / 1000),
       }),
