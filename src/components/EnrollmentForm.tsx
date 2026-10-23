@@ -39,10 +39,10 @@ export default function EnrollmentForm({ onOpenApplication }: EnrollmentFormProp
           <p className="text-xs text-gray-600 mt-6">
             {t('enrollment.questionsPrefix')}{' '}
             <a
-              href="mailto:ambassadors@africabitcoineducation.org?subject=Ambassador%20Question"
+              href="mailto:ambassadors@ismos.xyz?subject=Ambassador%20Question"
               className="text-orange-700 underline"
             >
-              ambassadors@africabitcoineducation.org
+              ambassadors@ismos.xyz
             </a>{' '}
             {t('enrollment.questionsSuffix')}
           </p>

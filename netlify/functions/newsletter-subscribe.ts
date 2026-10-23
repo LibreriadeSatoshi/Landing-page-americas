@@ -11,7 +11,7 @@
  *   - CUSTOMERIO_API_KEY    Track API key (NEVER expose client-side)
  *   - CUSTOMERIO_REGION     "us" (default) or "eu"
  *
- * Request:  POST /api/newsletter-subscribe   { email: string, locale?: "en"|"fr"|"sw" }
+ * Request:  POST /api/newsletter-subscribe   { email: string, locale?: "es"|"en"|"pt" }
  * Response: 200 { ok: true } | 4xx/5xx { error: string }
  */
 
@@ -22,7 +22,7 @@ const CUSTOMER_IO_HOSTS = {
 
 type Region = keyof typeof CUSTOMER_IO_HOSTS;
 
-const VALID_LOCALES = ['en', 'fr', 'sw'] as const;
+const VALID_LOCALES = ['es', 'en', 'pt'] as const;
 type Locale = (typeof VALID_LOCALES)[number];
 
 // Pragmatic email check; Customer.io performs its own deliverability validation.
@@ -72,7 +72,7 @@ export default async (req: Request): Promise<Response> => {
   const rawLocale = typeof body.locale === 'string' ? body.locale.toLowerCase() : '';
   const locale: Locale = (VALID_LOCALES as readonly string[]).includes(rawLocale)
     ? (rawLocale as Locale)
-    : 'en';
+    : 'es';
 
   // Track API uses HTTP Basic auth: site_id:api_key, base64-encoded.
   const auth = btoa(`${siteId}:${apiKey}`);
@@ -92,7 +92,7 @@ export default async (req: Request): Promise<Response> => {
       body: JSON.stringify({
         email,
         newsletter_subscribed: true,
-        signup_source: 'africa_ambassador',
+        signup_source: 'americas_ambassador',
         locale,
         created_at: Math.floor(Date.now() / 1000),
       }),

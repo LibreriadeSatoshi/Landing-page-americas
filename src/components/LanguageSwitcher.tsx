@@ -4,9 +4,9 @@ import { useTranslation } from 'react-i18next';
 import './LanguageSwitcher.css';
 
 const LANGUAGES = [
+  { code: 'es' as const, label: 'Español' },
   { code: 'en' as const, label: 'English' },
-  { code: 'fr' as const, label: 'Français' },
-  { code: 'sw' as const, label: 'Kiswahili' },
+  { code: 'pt' as const, label: 'Português' },
 ] as const;
 
 export type LangCode = (typeof LANGUAGES)[number]['code'];

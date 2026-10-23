@@ -7,7 +7,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const localesRoot = join(__dirname, '..', 'src', 'locales');
 
 const BASE_LOCALE = 'en';
-const OTHER_LOCALES = ['fr', 'sw'];
+const OTHER_LOCALES = ['es', 'pt'];
 
 /**
  * Recursively extracts all dot-notation keys from a nested JSON object.

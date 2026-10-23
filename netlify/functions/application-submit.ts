@@ -20,7 +20,7 @@ type Region = keyof typeof CUSTOMER_IO_HOSTS;
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const MAX_EMAIL_LENGTH = 254;
 
-const VALID_LOCALES = ['en', 'fr', 'sw'] as const;
+const VALID_LOCALES = ['es', 'en', 'pt'] as const;
 
 const json = (status: number, body: unknown): Response =>
   new Response(JSON.stringify(body), {
@@ -35,7 +35,7 @@ function buildIdentifyAttributes(
   p: Record<string, unknown>
 ): Record<string, string | number | boolean> {
   const localeRaw = getString(p.locale).toLowerCase();
-  const locale = (VALID_LOCALES as readonly string[]).includes(localeRaw) ? localeRaw : 'en';
+  const locale = (VALID_LOCALES as readonly string[]).includes(localeRaw) ? localeRaw : 'es';
 
   const applicationIntentRaw = getString(p.applicationIntent).toLowerCase();
   const application_intent: 'learner' | 'tutor' =
@@ -48,7 +48,7 @@ function buildIdentifyAttributes(
     email: getString(p.email).toLowerCase(),
     name: str('fullName'),
     application_submitted: true,
-    application_source: 'africa_ambassador',
+    application_source: 'americas_ambassador',
     application_intent,
     locale,
     full_name: str('fullName'),
@@ -87,7 +87,7 @@ function buildEventData(p: Record<string, unknown>): Record<string, unknown> {
   return {
     ...rest,
     form_label:
-      typeof p.form === 'string' ? p.form : 'Africa Bitcoin Education — Ambassador Application',
+      typeof p.form === 'string' ? p.form : 'Americas Bitcoin Education — Ambassador Application',
     client_timestamp: typeof p.timestamp === 'string' ? p.timestamp : undefined,
   };
 }

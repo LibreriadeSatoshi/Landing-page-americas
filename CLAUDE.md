@@ -1,7 +1,8 @@
 ## Project
 
-React + Vite + TypeScript + Tailwind landing page for the Africa Bitcoin Ambassador Program.
-Trilingual: English (default), French, Swahili — translations in `src/locales/[en|fr|sw]/common.json`.
+React + Vite + TypeScript + Tailwind landing page for the Americas Bitcoin Ambassador Program (North America, Central America, the Caribbean and South America).
+Trilingual: Spanish (default), English, Portuguese — translations in `src/locales/[es|en|pt]/common.json`.
+Forked from `LibreriadeSatoshi/Landing-page-africa`.
 
 ## AI-assisted development (Cursor / Claude Code)
 
@@ -35,11 +36,11 @@ Run in that order. The pre-push hook runs `tsc -b` automatically on every `git p
 
 When adding a new key to `src/locales/en/common.json`, you MUST add the same key to:
 
-- `src/locales/fr/common.json`
-- `src/locales/sw/common.json`
+- `src/locales/es/common.json`
+- `src/locales/pt/common.json`
 
 The `translation-completeness` test will fail otherwise and block the PR.
-EN is the source of truth — all keys in EN must exist in FR and SW.
+EN is the source of truth for keys — all keys in EN must exist in ES and PT. ES is the default UI language.
 
 ## UI constraints
 

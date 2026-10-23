@@ -15,7 +15,7 @@ type SubscribeStatus = 'idle' | 'submitting' | 'success' | 'error';
 type ErrorKey = 'invalidEmail' | 'subscribeError';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const SUPPORTED_LOCALES = ['en', 'fr', 'sw'] as const;
+const SUPPORTED_LOCALES = ['es', 'en', 'pt'] as const;
 
 export default function UnifiedFooter() {
   const { t, i18n } = useTranslation();
@@ -37,8 +37,8 @@ export default function UnifiedFooter() {
     setStatus('submitting');
 
     // Send only the 2-letter base locale (e.g. "en-US" → "en") and only if supported.
-    const base = (i18n.language ?? 'en').slice(0, 2).toLowerCase();
-    const locale = (SUPPORTED_LOCALES as readonly string[]).includes(base) ? base : 'en';
+    const base = (i18n.language ?? 'es').slice(0, 2).toLowerCase();
+    const locale = (SUPPORTED_LOCALES as readonly string[]).includes(base) ? base : 'es';
 
     try {
       const res = await fetch('/api/newsletter-subscribe', {
@@ -184,9 +184,7 @@ export default function UnifiedFooter() {
                 <a href="#faq">{t('unifiedFooter.linkFaq')}</a>
               </li>
               <li>
-                <a href="mailto:ambassadors@africabitcoineducation.org">
-                  {t('unifiedFooter.linkContact')}
-                </a>
+                <a href="mailto:ambassadors@ismos.xyz">{t('unifiedFooter.linkContact')}</a>
               </li>
             </ul>
           </div>
