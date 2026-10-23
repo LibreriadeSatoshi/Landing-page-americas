@@ -35,10 +35,9 @@
   cursor: pointer;
 }
 
-.app-header__mark {
-  font-family: var(--font-mono);
-  font-size: 21px;
-  font-weight: 600;
+.app-header__brand img {
+  display: block;
+  flex: none;
 }
 
 .app-header__highlight {
