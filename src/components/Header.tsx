@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import ismosMark from '../../design/ismos/logos/ismos-mark-paper.svg';
 import './Header.css';
 
 type HeaderProps = {
@@ -17,7 +18,7 @@ export default function Header({ onCloseApplication }: Readonly<HeaderProps>) {
     <header className="app-header ism-block">
       <div className="app-header__inner">
         <button type="button" className="app-header__brand" onClick={() => onCloseApplication?.()}>
-          <span className="app-header__mark">₿</span>
+          <img src={ismosMark} alt="ISMOS" width={24} height={24} />
           <span>
             {t('brand.prefix')}{' '}
             <span className="app-header__highlight">{t('brand.highlight')}</span>

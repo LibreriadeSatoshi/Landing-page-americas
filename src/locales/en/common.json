@@ -244,7 +244,7 @@
       "terms": "Terms of Use",
       "contact": "Contact"
     },
-    "copyright": "Copyright {{year}} Americas Bitcoin Education. All rights reserved."
+    "copyright": "Copyright {{year}} ISMOS. All rights reserved."
   },
   "application": {
     "backHome": "Back to home",
@@ -567,7 +567,7 @@
     "connectBlurb": "Join our community across the Americas and stay connected.",
     "bottomLead": "Americas Bitcoin Education",
     "bottomTagline": "Building technical fluency across the Americas in every language.",
-    "copyright": "Copyright {{year}} Americas Bitcoin Education. All rights reserved.",
+    "copyright": "Copyright {{year}} ISMOS. All rights reserved.",
     "legalPrivacy": "Privacy policy",
     "legalTerms": "Terms of service",
     "legalConduct": "Code of conduct",

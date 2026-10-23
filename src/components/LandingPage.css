@@ -42,6 +42,9 @@
 }
 
 .ism-root .nav-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-8);
   font-family: var(--font-sans);
   font-size: 17px;
   line-height: 28px;
@@ -50,7 +53,12 @@
   text-decoration: none;
 }
 
-.nav-logo span {
+.nav-logo img {
+  display: block;
+  flex: none;
+}
+
+.nav-logo__text span {
   color: var(--mauveine-200);
 }
 

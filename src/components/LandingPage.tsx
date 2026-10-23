@@ -14,6 +14,7 @@ import {
   Presentation,
   Suitcase,
 } from 'iconoir-react';
+import ismosMark from '../../design/ismos/logos/ismos-mark-paper.svg';
 import './LandingPage.css';
 import LanguageSwitcher from './LanguageSwitcher';
 import UnifiedFooter from './UnifiedFooter';
@@ -81,8 +82,11 @@ function LandingPage({ onApply }: LandingPageProps) {
     <div className="landing-page-root">
       <nav>
         <a href="#hero" className="nav-logo">
-          {t('brand.prefix')} <span>{t('brand.highlight')}</span>
-          {t('landing.nav.logoSuffix')}
+          <img src={ismosMark} alt="ISMOS" width={24} height={24} />
+          <span className="nav-logo__text">
+            {t('brand.prefix')} <span>{t('brand.highlight')}</span>
+            {t('landing.nav.logoSuffix')}
+          </span>
         </a>
         <div className="landing-nav-end">
           <ul className="nav-links">

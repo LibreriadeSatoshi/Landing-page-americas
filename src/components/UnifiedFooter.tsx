@@ -117,7 +117,10 @@ export default function UnifiedFooter() {
               </div>
               <p className="consent-text">
                 {t('unifiedFooter.consent')}
-                <a href="#"> {t('unifiedFooter.privacyPolicy')}</a>
+                <a href="https://ismos.xyz/en/privacy" target="_blank" rel="noopener noreferrer">
+                  {' '}
+                  {t('unifiedFooter.privacyPolicy')}
+                </a>
               </p>
             </form>
           </div>
@@ -241,9 +244,19 @@ export default function UnifiedFooter() {
             <p className="copyright">{t('unifiedFooter.copyright', { year })}</p>
           </div>
           <div className="footer-bottom-right">
-            <a href="#">{t('unifiedFooter.legalPrivacy')}</a>
-            <a href="#">{t('unifiedFooter.legalTerms')}</a>
-            <a href="#">{t('unifiedFooter.legalConduct')}</a>
+            <a href="https://ismos.xyz/en/privacy" target="_blank" rel="noopener noreferrer">
+              {t('unifiedFooter.legalPrivacy')}
+            </a>
+            <a href="https://ismos.xyz/en/terms" target="_blank" rel="noopener noreferrer">
+              {t('unifiedFooter.legalTerms')}
+            </a>
+            <a
+              href="https://ismos.xyz/en/code-of-conduct"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {t('unifiedFooter.legalConduct')}
+            </a>
           </div>
         </section>
       </div>
