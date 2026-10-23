@@ -3,7 +3,7 @@ description: Guardrails for AI-assisted edits (Cursor / Claude Code) — scope, 
 alwaysApply: true
 ---
 
-# Africa Landing Page — AI workflow guardrails
+# Americas Landing Page — AI workflow guardrails
 
 ## Scope
 
@@ -20,7 +20,7 @@ alwaysApply: true
 ## When the task is "done"
 
 1. `npm run format` — auto-fix formatting
-2. `npm run test:fast` — validates all translation keys exist in FR and SW (~3s)
+2. `npm run test:fast` — validates all translation keys exist in ES and PT (~3s)
 3. `npm run build` — TypeScript + Vite build check
 4. Commit on the feature branch
 5. Push — the pre-push hook runs `tsc -b` automatically
@@ -30,7 +30,7 @@ alwaysApply: true
 ## Translations
 
 - EN (`src/locales/en/common.json`) is the source of truth.
-- Every key added to EN **must** be added to FR and SW in the same PR.
+- Every key added to EN **must** be added to ES and PT in the same PR.
 - `npm run test:fast` will fail if any key is missing — this blocks the PR in CI.
 
 ## Hard limits

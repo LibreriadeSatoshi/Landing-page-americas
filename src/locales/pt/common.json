@@ -1,0 +1,579 @@
+{
+  "common": {
+    "yes": "Sim",
+    "no": "Não"
+  },
+  "nav": {
+    "forLearners": "Para estudantes",
+    "forEducators": "Para professores",
+    "forPartners": "Para parceiros"
+  },
+  "header": {
+    "backToSite": "Voltar ao site",
+    "about": "Sobre",
+    "program": "Programa",
+    "benefits": "Benefícios",
+    "applyNow": "Inscreva-se",
+    "toggleMenu": "Abrir ou fechar menu"
+  },
+  "hero": {
+    "audiences": {
+      "learners": "Participe do nosso programa de embaixadores para dominar Bitcoin e se tornar educador na sua comunidade",
+      "educators": "Acesse recursos e ferramentas para facilitar oficinas de educação Bitcoin",
+      "partners": "Seja nosso parceiro para ampliar a educação Bitcoin nas Américas"
+    },
+    "badge": {
+      "learners": "Inscrições abertas: Programa de Embaixadores Américas 2026",
+      "educators": "Recursos para professores disponíveis",
+      "partners": "Oportunidades de parceria"
+    },
+    "title": {
+      "learners": {
+        "prefix": "Aprenda Bitcoin.",
+        "highlight": "Ensine",
+        "middle": "a sua comunidade.",
+        "suffix": "Construa o futuro das Américas."
+      },
+      "educators": {
+        "prefix": "Forme professores.",
+        "highlight": "Facilite",
+        "middle": "oficinas de Bitcoin.",
+        "suffix": "Fortaleça comunidades."
+      },
+      "partners": {
+        "prefix": "Seja nosso parceiro.",
+        "highlight": "Amplie",
+        "middle": "a educação Bitcoin.",
+        "suffix": "Alcance milhões."
+      }
+    },
+    "description": {
+      "learners": "Faça parte de uma rede de jovens líderes das Américas que desenvolvem fluência técnica em Bitcoin, blockchain e tecnologia de código aberto, no seu idioma e no seu ritmo.",
+      "educators": "Acesse materiais didáticos completos, guias para facilitar oficinas e ferramentas para construir comunidade e ensinar Bitcoin e blockchain com eficácia.",
+      "partners": "Colabore com organizações, empresas e instituições para levar educação Bitcoin de qualidade a comunidades das Américas e além."
+    },
+    "stats": {
+      "countries": "Países das Américas",
+      "free": "Programa gratuito"
+    },
+    "cta": {
+      "learners": {
+        "apply": "Inscreva-se. É grátis",
+        "learnMore": "Saiba mais"
+      },
+      "educators": {
+        "apply": "Acessar recursos",
+        "learnMore": "Saiba mais"
+      },
+      "partners": {
+        "apply": "Seja nosso parceiro",
+        "learnMore": "Saiba mais"
+      }
+    },
+    "scrollAria": "Rolar para baixo",
+    "scrollLabel": "Rolar"
+  },
+  "what": {
+    "label": "O que estamos construindo",
+    "title": "A rede de educação Bitcoin das Américas, no seu idioma",
+    "description": "A Librería de Satoshi está construindo um programa de educação tecnológica e de embaixadores para as Américas. Uma rede autossustentável de jovens líderes, da América do Norte à América Central, ao Caribe e à América do Sul, que dominam habilidades digitais atuais e multiplicam esse conhecimento nas suas comunidades.",
+    "quote": "\"Com aprendizado em turmas, formação prática e mentoria, estudantes com ambição se tornam educadores confiantes e líderes nas suas comunidades.\"",
+    "cards": {
+      "reach": {
+        "title": "Alcance nas Américas",
+        "description": "Um programa pensado para chegar a cada canto das Américas, atravessando barreiras de idioma e fronteiras para multiplicar o conhecimento."
+      },
+      "knowledge": {
+        "title": "Conhecimento técnico profundo",
+        "description": "Fundamentos de Bitcoin, ciência da computação, ferramentas de código aberto, criptografia, programação, economia e IA, em um único currículo estruturado."
+      },
+      "community": {
+        "title": "Crescimento da comunidade",
+        "description": "Passe de estudante a educador. Deixe sua marca na comunidade como a referência local em Bitcoin."
+      }
+    }
+  },
+  "goal": {
+    "label": "Nosso objetivo",
+    "titlePrefix": "Uma rede autossustentável",
+    "titleHighlight": "de embaixadores",
+    "description": "Formar uma geração de embaixadores Bitcoin nas Américas que entendam a fundo a tecnologia blockchain, liderem suas comunidades com confiança e construam o futuro das finanças na região.",
+    "pillars": "Nossos embaixadores aprendem e ensinam em seis pilares:",
+    "cardTitle": "Rede de embaixadores",
+    "cardSubtitle": "Todas as Américas · Multilíngue · Código aberto",
+    "footer": "O conhecimento se multiplica entre fronteiras e idiomas",
+    "subjects": {
+      "blockchain": "Blockchain e Bitcoin",
+      "cs": "Ciência da computação",
+      "econMath": "Economia e matemática",
+      "crypto": "Criptografia",
+      "coding": "Programação",
+      "ai": "Inteligência artificial"
+    },
+    "tiers": {
+      "learner": "Estudante",
+      "ambassador": "Embaixador",
+      "educator": "Educador",
+      "leader": "Líder"
+    }
+  },
+  "why": {
+    "label": "Por que isso importa",
+    "titlePrefix": "As Américas precisam",
+    "titleHighlight": "que você ensine",
+    "description": "A educação Bitcoin nas Américas está crescendo, mas não é suficiente. Suas comunidades precisam de líderes que entendam blockchain a fundo. Construa o futuro na região.",
+    "quotePrefix": "\"Conhecimento que fica em um idioma fica em um lugar.",
+    "quoteHighlight": "É isso que estamos mudando.\"",
+    "quoteAuthor": "- Librería de Satoshi",
+    "reasons": {
+      "gap": {
+        "title": "A lacuna é real",
+        "description": "A adoção de Bitcoin nas Américas cresce rápido, mas a educação técnica profunda fica para trás. A maior parte do conteúdo está em inglês e fora do alcance de milhões de falantes de espanhol e português."
+      },
+      "languages": {
+        "title": "O idioma importa",
+        "description": "A educação deve viver nas comunidades, no idioma em que as pessoas pensam. O que se aprende na própria língua fica, cresce e se espalha."
+      },
+      "teachers": {
+        "title": "As Américas precisam de professores",
+        "description": "Suas comunidades precisam de líderes que entendam blockchain a fundo. O mais valioso que você pode fazer é ensinar, e as Américas precisam de você agora."
+      }
+    }
+  },
+  "how": {
+    "label": "Como funciona",
+    "titlePrefix": "Seu caminho de",
+    "titleHighlight": "estudante a líder",
+    "description": "Um programa estruturado, passo a passo, que leva você de iniciante em Bitcoin a educador na sua comunidade em poucos meses.",
+    "stepLabel": "Passo",
+    "steps": {
+      "one": {
+        "title": "Aprendizado em turma",
+        "description": "Entre em uma turma com colegas de todas as Américas. Aprendam juntos, apoiem-se e avancem por módulos estruturados com orientação especializada."
+      },
+      "two": {
+        "title": "Formação técnica prática",
+        "description": "Pratique com ferramentas reais de Bitcoin e software de código aberto. Desenvolva habilidades reais, não só teoria, com laboratórios e projetos guiados."
+      },
+      "three": {
+        "title": "Liderança e localização",
+        "description": "Desenvolva habilidades de comunicação e facilitação. Aprenda a adaptar os conceitos de Bitcoin à sua cultura, ao seu idioma e à sua comunidade."
+      },
+      "four": {
+        "title": "Compartilhar conhecimento",
+        "description": "Organize oficinas locais, sessões online e encontros comunitários. Multiplique o que aprendeu ensinando outras pessoas da sua rede."
+      },
+      "five": {
+        "title": "Funil de prova de trabalho",
+        "description": "Documente seu impacto. Cumpra marcos, ganhe reconhecimento e construa um histórico que comprove sua liderança e experiência."
+      }
+    }
+  },
+  "benefits": {
+    "label": "O que você recebe",
+    "titlePrefix": "Benefícios de participar",
+    "titleHighlight": "do programa",
+    "description": "Tudo o que você precisa para se tornar um educador Bitcoin confiante, sem custo para você.",
+    "curriculumLabel": "Currículo",
+    "curriculumTitle": "O que você vai aprender",
+    "curriculumDescription": "Nosso currículo cobre tudo o que um embaixador Bitcoin precisa hoje, dos primeiros princípios às habilidades técnicas práticas. No seu idioma e no seu ritmo.",
+    "subjects": {
+      "one": "Filosofia de Bitcoin e blockchain",
+      "two": "Fundamentos de ciência da computação",
+      "three": "Economia e matemática",
+      "four": "Criptografia",
+      "five": "Fundamentos de programação",
+      "six": "Introdução à IA"
+    },
+    "cards": {
+      "certified": {
+        "title": "Educador reconhecido",
+        "description": "Receba um registro de conclusão oficial que reconhece você como educador qualificado em Bitcoin e código aberto nas Américas."
+      },
+      "earnAsYouLearn": {
+        "title": "Ganhe enquanto aprende",
+        "description": "Receba recompensas financeiras, acesso a bolsas e benefícios pela sua participação ativa e contribuições ao longo do programa."
+      },
+      "internships": {
+        "title": "Estágios remunerados",
+        "description": "Quem tiver melhor desempenho terá acesso a estágios remunerados no ecossistema de tecnologia e código aberto."
+      },
+      "globalOpportunities": {
+        "title": "Comunidade e oportunidades globais",
+        "description": "Conecte-se com educadores Bitcoin e líderes do ecossistema do mundo todo, e tenha acesso a bolsas, convites para conferências e residências internacionais."
+      },
+      "techTraining": {
+        "title": "Formação tecnológica atual",
+        "description": "Formação prática em Bitcoin, criptografia, blockchain, programação, IA e ferramentas de código aberto que importam hoje e amanhã."
+      },
+      "portfolio": {
+        "title": "Portfólio internacional",
+        "description": "Construa um portfólio real e verificável de trabalhos e contribuições que se destaque no setor de tecnologia global."
+      }
+    }
+  },
+  "enrollment": {
+    "label": "Inscreva-se hoje",
+    "title": "Pronto para participar?",
+    "description": "Comece a inscrição de embaixador. Leva de 5 a 15 minutos.",
+    "cardTitle": "Inscrição completa em três passos curtos",
+    "cardDescription": "Dados pessoais, sua disponibilidade e compromisso, e sua experiência com Bitcoin. Responda com suas próprias palavras: autenticidade importa.",
+    "start": "Começar inscrição",
+    "questionsPrefix": "Dúvidas? Escreva para",
+    "questionsSuffix": "com \"Pergunta de embaixador\" no assunto."
+  },
+  "footer": {
+    "description": "Construindo a rede Bitcoin das Américas, no seu idioma, de estudante a educador. Conhecimento que se multiplica entre fronteiras.",
+    "navigation": "Navegação",
+    "connect": "Conecte-se",
+    "poweredBy": "Desenvolvido por",
+    "social": {
+      "twitter": "Twitter",
+      "telegram": "Telegram",
+      "github": "GitHub"
+    },
+    "links": {
+      "home": "Início",
+      "about": "Sobre",
+      "program": "Programa",
+      "benefits": "Benefícios",
+      "apply": "Inscreva-se"
+    },
+    "legal": {
+      "privacy": "Política de privacidade",
+      "terms": "Termos de uso",
+      "contact": "Contato"
+    },
+    "copyright": "Copyright {{year}} Americas Bitcoin Education. Todos os direitos reservados."
+  },
+  "application": {
+    "backHome": "Voltar ao início",
+    "label": "Inscrição de embaixador",
+    "title": "Americas Bitcoin Education",
+    "description": "Preencha todos os campos obrigatórios. Leva de 5 a 15 minutos. Não use ferramentas de IA para responder: queremos sua voz autêntica.",
+    "stepOf": "Passo {{current}} de {{total}}",
+    "back": "Voltar",
+    "continue": "Continuar",
+    "submit": "Enviar inscrição",
+    "submitting": "Enviando...",
+    "success": {
+      "title": "Inscrição recebida",
+      "description": "Obrigado por se inscrever como embaixador da Americas Bitcoin Education. Vamos analisar sua inscrição e entrar em contato em até 5 a 7 dias úteis. Verifique seu e-mail (inclusive a pasta de spam)."
+    },
+    "sections": {
+      "one": "Seção 1: Informações pessoais",
+      "two": "Seção 2: Disponibilidade e compromisso",
+      "three": "Seção 3: Conhecimento e experiência em Bitcoin"
+    },
+    "fields": {
+      "fullName": "Nome completo",
+      "email": "E-mail",
+      "gender": "Gênero",
+      "country": "País",
+      "city": "Cidade de residência",
+      "timezone": "Fuso horário",
+      "primaryLanguage": "Idioma principal",
+      "additionalLanguages": "Você fala outros idiomas?",
+      "readWriteLanguages": "Você sabe ler e escrever nos idiomas indicados?",
+      "readWriteLanguagesDetail": "Em quais idiomas você sabe ler e escrever?",
+      "hearAbout": "Como você ficou sabendo do Programa de Embaixadores da Americas Bitcoin Education?",
+      "hoursPerWeek": "Quantas horas por semana você pode dedicar?",
+      "commitThreeMonths": "Você pode se comprometer por pelo menos 3 meses?",
+      "hopeToLearn": "O que você espera aprender e alcançar como embaixador da Americas Bitcoin Education?",
+      "helpCommunity": "Como você pode ajudar sua comunidade como embaixador por meio deste programa?",
+      "hasLaptop": "Você tem um computador ou notebook confiável?",
+      "internetSpeedPrefix": "Velocidade média da internet (faça um teste em",
+      "internetSpeedSuffix": ")",
+      "videoConferencing": "Você conhece ferramentas de videoconferência?",
+      "bitcoinKnowledge": "Como você avalia seu conhecimento de Bitcoin?",
+      "usedBitcoin": "Você já usou Bitcoin?",
+      "uniqueOptional": "O que torna você único? (opcional)",
+      "questionsForUs": "Tem alguma pergunta para nós? (opcional)",
+      "teachingExperience": "Experiência em ensino",
+      "programmingExperience": "Experiência em programação",
+      "anythingElse": "Algo mais que queira nos contar? (opcional)"
+    },
+    "placeholders": {
+      "gender": "Como você se identifica",
+      "internetSpeed": "ex.: 25 Mbps de download",
+      "teaching": "Descreva sua experiência com ensino, tutoria ou facilitação",
+      "programming": "Descreva sua experiência técnica ou com programação (não ter nenhuma tudo bem)",
+      "readWriteLanguagesDetail": "ex.: português, espanhol"
+    },
+    "bitcoinOptions": {
+      "beginner": "Iniciante: ainda estou aprendendo",
+      "intermediate": "Intermediário: entendo bem Bitcoin",
+      "advanced": "Avançado: tenho conhecimento profundo",
+      "expert": "Especialista: conhecimento muito amplo"
+    },
+    "select": {
+      "country": "Selecione o país",
+      "timezone": "Selecione o fuso horário",
+      "language": "Selecione o idioma",
+      "generic": "Selecione"
+    },
+    "maxWords": "(máx. 200 palavras)",
+    "wordsCount": "{{current}} / {{max}} palavras"
+  },
+  "brand": {
+    "prefix": "Américas",
+    "highlight": "Bitcoin"
+  },
+  "landing": {
+    "nav": {
+      "logoSuffix": ".",
+      "program": "Programa",
+      "whyAmericas": "Por que as Américas",
+      "howItWorks": "Como funciona",
+      "faq": "Perguntas",
+      "applyNow": "Inscreva-se"
+    },
+    "hero": {
+      "eyebrow": "Todas as Américas · Multilíngue · Grátis",
+      "titleLine1": "Aprenda Bitcoin.",
+      "titleLine2": "Ensine nas Américas.",
+      "titleEmphasis": "No seu idioma.",
+      "description": "Faça parte de uma rede estruturada de educação Bitcoin que desenvolve fluência técnica na América do Norte, na América Central, no Caribe e na América do Sul, no idioma em que as pessoas pensam. Estudantes se tornam educadores. O conhecimento se multiplica.",
+      "applyAmbassador": "Inscreva-se como embaixador",
+      "exploreProgram": "Conheça o programa",
+      "cardTitle": "O programa em resumo",
+      "statNumberCountries": "[n]",
+      "statNumberLanguages": "3",
+      "statNumberWeeks": "12 semanas",
+      "statNumberFree": "Grátis",
+      "statCountries": "Países · México, Guatemala, El Salvador, Colômbia, Argentina, Brasil e mais [a confirmar]",
+      "statLanguages": "Idiomas · espanhol, inglês, português",
+      "statSchedule": "Programa em turmas · 90 min/semana + 10 h de leitura",
+      "statFree": "aprenda sem custo"
+    },
+    "programSection": {
+      "label": "Para quem é?",
+      "title": "Há um lugar para você aqui",
+      "description": "Seja para aprender, ensinar ou ampliar a educação Bitcoin, esta rede foi feita para você.",
+      "tabLearners": "Estudantes",
+      "tabEducators": "Professores",
+      "tabPartners": "Parceiros",
+      "students": {
+        "title": "Comece a aprender Bitcoin no seu idioma",
+        "body": "Educação Bitcoin gratuita e estruturada para as Américas. Aprenda blockchain, criptografia, economia e programação. Não é preciso experiência prévia, só vontade de entender e o compromisso de compartilhar.",
+        "applyCta": "Inscreva-se como embaixador",
+        "tileCommitment": "Compromisso",
+        "tileCommitmentValue": "90 min/semana + 10 h de leitura",
+        "tileWhat": "O que você aprende",
+        "tileWhatValue": "Bitcoin · IA · Criptografia · Economia · Programação",
+        "tileWho": "Quem pode se inscrever",
+        "tileWhoValue": "Não é preciso experiência",
+        "colWhoTitle": "Quem pode se inscrever",
+        "colWhoItems": [
+          "Estudantes do ensino médio, graduação ou pós-graduação",
+          "Qualquer pessoa com vontade de aprender Bitcoin, sem conhecimento prévio",
+          "Disposição para compartilhar o que aprendeu no seu idioma local",
+          "Fluência em pelo menos 2 idiomas (espanhol, inglês ou português)",
+          "Internet confiável e um computador ou smartphone"
+        ],
+        "colLangTitle": "Idiomas disponíveis",
+        "pillSpanish": "Espanhol",
+        "pillEnglish": "Inglês",
+        "pillPortuguese": "Português",
+        "pillMore": "e mais",
+        "colCountriesTitle": "Países onde atuamos",
+        "countryMexico": "México",
+        "countryGuatemala": "Guatemala",
+        "countryElSalvador": "El Salvador",
+        "countryColombia": "Colômbia",
+        "countryArgentina": "Argentina",
+        "countryBrazil": "Brasil"
+      },
+      "teachers": {
+        "title": "Torne-se um educador Bitcoin reconhecido",
+        "body": "Entre na nossa rede de tutores. Conduza uma turma de 8 a 12 estudantes, adapte o currículo para idiomas regionais e forme a próxima geração de educadores técnicos de Bitcoin nas Américas. Seja remunerado pela sua experiência.",
+        "applyCta": "Inscreva-se como tutor",
+        "tilePersonas": "Perfis de tutor",
+        "tilePersonasValue": "Especialista · Especialista técnico · Professor · Organizador de eventos",
+        "tileCohort": "Tamanho da turma",
+        "tileCohortValue": "8 a 12 estudantes por educador",
+        "tileSupport": "Apoio e remuneração",
+        "tileSupportValue": "Chamadas semanais · Currículo · USD 5–10/h",
+        "colWhoTitle": "Quem deve se inscrever",
+        "colWhoItems": [
+          "Educadores e tradutores bilíngues",
+          "Professores do ensino médio e universitário",
+          "Organizadores de meetups e comunidades",
+          "Especialistas em Bitcoin ou tecnologia",
+          "Desenvolvedores com vontade de compartilhar conhecimento técnico"
+        ],
+        "colJourneyTitle": "Caminho do tutor",
+        "journeyPhase1": "Fase 1 - Orientação:",
+        "journeyPhase1Body": "Boas-vindas, treinamento na plataforma, aula de prática",
+        "journeyPhase2": "Fase 2 - Conduzir a turma:",
+        "journeyPhase2Body": "Conduza sessões semanais, adapte o conteúdo, acompanhamento quinzenal",
+        "journeyPhase3": "Fase 3 - Revisar e crescer:",
+        "journeyPhase3Body": "Colete feedback, aprimore o currículo, oriente a próxima turma"
+      },
+      "partners": {
+        "title": "Amplie a educação Bitcoin nas Américas",
+        "body": "Construa conosco uma rede de conhecimento Bitcoin nas Américas, pensada no idioma de cada comunidade. Apoie o desenvolvimento do currículo, eventos, infraestrutura e o crescimento de embaixadores em toda a região.",
+        "cta": "Explorar parceria",
+        "tileReach": "Nosso alcance",
+        "tileReachValue": "[n] países · [n] cidades · [n] embaixadores",
+        "tileOpportunity": "A oportunidade",
+        "tileOpportunityValue": "No seu idioma · De base · Escalável",
+        "tileHub": "Núcleo",
+        "tileHubValue": "Librería de Satoshi: conteúdo e experiência",
+        "colOppTitle": "Oportunidades de parceria",
+        "colOppItems": [
+          "Desenvolvimento conjunto de currículo e patrocínio de conteúdo",
+          "Apoio na coordenação de eventos e meetups",
+          "Bolsas para embaixadores e financiamento de infraestrutura",
+          "Pesquisa, dados e co-branding",
+          "Parcerias de localização e tradução"
+        ],
+        "colWhoTitle": "Quem deve ser nosso parceiro",
+        "pillNgo": "ONGs",
+        "pillUni": "Universidades",
+        "pillBitcoin": "Organizações Bitcoin",
+        "pillTech": "Empresas de tecnologia",
+        "pillGrants": "Financiadores"
+      }
+    },
+    "howSection": {
+      "label": "O modelo",
+      "title": "Como o programa funciona",
+      "description": "Um programa estruturado de três meses: de estudante a embaixador e de embaixador a educador.",
+      "cards": [
+        {
+          "title": "Aprendizado em turma",
+          "body": "Turmas pequenas e focadas em todas as Américas. Sessões guiadas com acompanhamento semanal garantem compromisso e progresso real, não só assistir a vídeos."
+        },
+        {
+          "title": "Formação técnica prática",
+          "body": "Exercícios práticos de fundamentos de Bitcoin, criptografia, programação básica e ferramentas de código aberto. Você desenvolve habilidades reais, não uma noção superficial."
+        },
+        {
+          "title": "Funil de prova de trabalho",
+          "body": "Avança-se passando nas avaliações, não só comparecendo. O progresso é conquistado, e por isso o registro de conclusão tem valor."
+        },
+        {
+          "title": "Localização e idioma em primeiro lugar",
+          "body": "Embaixadores bilíngues traduzem e adaptam cada módulo. Sua turma aprende no idioma em que você pensa, não em um idioma imposto."
+        },
+        {
+          "title": "De estudante a educador",
+          "body": "Identificamos quem tem melhor desempenho e oferecemos ferramentas, currículo e apoio para conduzir a própria turma. O conhecimento se multiplica, região por região."
+        },
+        {
+          "title": "Reconhecimento",
+          "body": "Ao terminar, você recebe um registro de conclusão oficial para compartilhar no LinkedIn, acesso à rede de educadores e prioridade em oportunidades de bolsas nas Américas."
+        }
+      ]
+    },
+    "benefitsSection": {
+      "label": "O que você ganha",
+      "title": "Benefícios de participar",
+      "description": "Não é um curso passivo. Você sai como um educador com base técnica, uma rede real e um registro de conclusão real.",
+      "cards": [
+        {
+          "title": "Educador reconhecido",
+          "body": "Receba um registro de conclusão oficial que reconhece você como educador qualificado em Bitcoin e código aberto nas Américas."
+        },
+        {
+          "title": "Ganhe enquanto aprende",
+          "body": "Receba recompensas financeiras, acesso a bolsas e benefícios pela sua participação ativa e contribuições ao longo do programa."
+        },
+        {
+          "title": "Estágios remunerados",
+          "body": "Quem tiver melhor desempenho terá acesso a estágios remunerados no ecossistema de tecnologia e código aberto."
+        },
+        {
+          "title": "Comunidade e oportunidades globais",
+          "body": "Conecte-se com educadores Bitcoin e líderes do ecossistema do mundo todo, e tenha acesso a bolsas, convites para conferências e residências internacionais."
+        },
+        {
+          "title": "Formação tecnológica atual",
+          "body": "Formação prática em Bitcoin, criptografia, blockchain, programação, IA e ferramentas de código aberto que importam hoje e amanhã."
+        },
+        {
+          "title": "Portfólio internacional",
+          "body": "Construa um portfólio real e verificável de trabalhos e contribuições que se destaque no setor de tecnologia global."
+        }
+      ]
+    },
+    "faqSection": {
+      "label": "Perguntas",
+      "title": "Perguntas frequentes",
+      "items": [
+        {
+          "question": "O que é Bitcoin e por que ele importa para as Américas?",
+          "answer": "Bitcoin é uma moeda digital que permite enviar e receber dinheiro sem bancos nem intermediários. Ele funciona em uma rede descentralizada chamada blockchain, onde as transações são verificadas no mundo todo e registradas em um livro público que nenhuma entidade controla. Para as Américas, onde milhões de pessoas não têm conta em banco, enfrentam inflação alta ou dependem de remessas caras, Bitcoin é uma infraestrutura financeira que pertence a todos."
+        },
+        {
+          "question": "Preciso ter experiência prévia com Bitcoin ou tecnologia?",
+          "answer": "Não. O programa foi pensado para pessoas motivadas que começam do zero. O que importa é o seu compromisso de participar, estudar por conta própria de 10 a 20 horas por semana e a disposição de compartilhar o que aprender com a sua comunidade."
+        },
+        {
+          "question": "O programa é mesmo gratuito?",
+          "answer": "Sim, totalmente gratuito para todos os estudantes. Nossa missão é remover as barreiras a uma educação de qualidade, e o custo nunca deveria ser uma delas. O programa é financiado por bolsas e pelo apoio do ecossistema Bitcoin à educação aberta."
+        },
+        {
+          "question": "Por que preciso falar dois idiomas?",
+          "answer": "O centro deste programa é a localização: tornar a educação Bitcoin acessível nos idiomas falados na região. Embaixadores com fluência em pelo menos dois idiomas (espanhol, inglês ou português) conseguem fazer essa ponte para a próxima turma. Ser bilíngue não é uma barreira; é a sua vantagem nesta rede."
+        },
+        {
+          "question": "O que acontece depois que eu terminar o programa?",
+          "answer": "Os melhores estudantes são identificados por avaliações e pelo desempenho entre colegas. Quem mostra preparo para ensinar é convidado a conduzir a própria turma de 8 a 12 estudantes, no seu idioma e na sua comunidade. Você recebe apoio com o currículo, recursos para tutores e remuneração (USD 5–10/h) pelo seu tempo. A partir daí, o conhecimento se multiplica."
+        },
+        {
+          "question": "Bitcoin é legal no meu país?",
+          "answer": "A situação legal do Bitcoin varia de país para país. Na maioria dos países das Américas é legal ter e usar Bitcoin, embora as regras mudem. Alguns países o adotaram, outros regulam de perto exchanges e empresas, e alguns o restringem. O programa ensina os fundamentos técnicos do Bitcoin e como lidar com segurança com o ambiente regulatório da sua região."
+        }
+      ]
+    },
+    "cta": {
+      "titleLine1": "Pronto para fazer parte",
+      "titleLine2": "do futuro Bitcoin",
+      "titleEmphasis": "das Américas?",
+      "description": "Seja para aprender, ensinar ou investir nesta missão, há um lugar para você. Junte-se à rede que constrói educação Bitcoin desde a base em todas as Américas.",
+      "applyLearner": "Inscreva-se como estudante",
+      "becomeTutor": "Seja tutor",
+      "partnerWithUs": "Seja nosso parceiro"
+    }
+  },
+  "unifiedFooter": {
+    "newsletterTitle": "Fique por dentro da educação Bitcoin nas Américas",
+    "newsletterDescription": "Receba no seu e-mail novidades sobre programas, histórias de embaixadores e recursos.",
+    "emailPlaceholder": "Seu e-mail",
+    "subscribe": "Inscrever-me",
+    "subscribing": "Inscrevendo…",
+    "subscribeSuccess": "Inscrição feita. Verifique seu e-mail para confirmar.",
+    "subscribeError": "Algo deu errado. Tente novamente.",
+    "invalidEmail": "Digite um e-mail válido.",
+    "consent": "Respeitamos sua privacidade. Cancele quando quiser.",
+    "privacyPolicy": "Política de privacidade",
+    "columnProgram": "Programa",
+    "columnLearn": "Aprenda",
+    "columnExplore": "Explore",
+    "columnConnect": "Conecte-se",
+    "linkLearners": "Estudantes",
+    "linkEducators": "Professores",
+    "linkPartners": "Parceiros",
+    "linkApplyNow": "Inscreva-se",
+    "linkBitcoinBasics": "Bitcoin básico",
+    "linkResources": "Recursos",
+    "linkBlog": "Blog",
+    "linkLibreria": "Librería de Satoshi",
+    "linkDocumentation": "Documentação",
+    "linkFaq": "Perguntas frequentes",
+    "linkContact": "Contato",
+    "connectBlurb": "Junte-se à nossa comunidade nas Américas e mantenha contato.",
+    "bottomLead": "Americas Bitcoin Education",
+    "bottomTagline": "Fluência técnica nas Américas, em cada idioma.",
+    "copyright": "Copyright {{year}} Americas Bitcoin Education. Todos os direitos reservados.",
+    "legalPrivacy": "Política de privacidade",
+    "legalTerms": "Termos de serviço",
+    "legalConduct": "Código de conduta",
+    "ariaTwitter": "Twitter",
+    "ariaTelegram": "Telegram",
+    "ariaYoutube": "YouTube",
+    "ariaDiscord": "Discord"
+  }
+}

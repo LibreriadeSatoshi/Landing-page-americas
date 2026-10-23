@@ -20,10 +20,10 @@
     "audiences": {
       "learners": "Join our ambassador program to master Bitcoin and become a community educator",
       "educators": "Access teaching resources and tools to facilitate Bitcoin education workshops",
-      "partners": "Partner with us to expand Bitcoin education across Africa"
+      "partners": "Partner with us to expand Bitcoin education across the Americas"
     },
     "badge": {
-      "learners": "Applications open: Africa Ambassador Program 2026",
+      "learners": "Applications open: Americas Ambassador Program 2026",
       "educators": "Educator Resources Available",
       "partners": "Partnership Opportunities"
     },
@@ -32,7 +32,7 @@
         "prefix": "Learn Bitcoin.",
         "highlight": "Teach",
         "middle": "Your Community.",
-        "suffix": "Shape Africa's Future."
+        "suffix": "Shape the Americas' Future."
       },
       "educators": {
         "prefix": "Train educators.",
@@ -48,12 +48,12 @@
       }
     },
     "description": {
-      "learners": "Join a movement of young African leaders building technical fluency in Bitcoin, blockchain, and open-source technology - in your language, at your pace.",
+      "learners": "Join a movement of young leaders across the Americas building technical fluency in Bitcoin, blockchain, and open-source technology - in your language, at your pace.",
       "educators": "Access comprehensive teaching materials, workshop facilitation guides, and community building tools to effectively teach Bitcoin and blockchain concepts.",
-      "partners": "Collaborate with organizations, companies, and institutions to bring quality Bitcoin education to communities across Africa and beyond."
+      "partners": "Collaborate with organizations, companies, and institutions to bring quality Bitcoin education to communities across the Americas and beyond."
     },
     "stats": {
-      "countries": "African Countries",
+      "countries": "Countries in the Americas",
       "free": "Free Program"
     },
     "cta": {
@@ -75,13 +75,13 @@
   },
   "what": {
     "label": "What We're Building",
-    "title": "Africa's Language-First Bitcoin Education Network",
-    "description": "Libreria de Satoshi is building Africa's largest technology education and ambassador program. A self-sustaining network of young African leaders who master current digital skills, and multiply that knowledge across their communities.",
+    "title": "The Americas' Language-First Bitcoin Education Network",
+    "description": "Libreria de Satoshi is building a technology education and ambassador program for the Americas. A self-sustaining network of young leaders, from North America to Central America, the Caribbean, and South America, who master current digital skills and multiply that knowledge across their communities.",
     "quote": "\"Through cohort-based learning, hands-on training, and mentorship, ambitious students become confident educators and community leaders.\"",
     "cards": {
       "reach": {
-        "title": "Continent-Wide Reach",
-        "description": "A pan-African program designed to reach every corner of the continent, crossing language barriers and borders to multiply knowledge."
+        "title": "Reach across the Americas",
+        "description": "A program designed to reach every corner of the Americas, crossing language barriers and borders to multiply knowledge."
       },
       "knowledge": {
         "title": "Deep Technical Knowledge",
@@ -97,10 +97,10 @@
     "label": "Our Goal",
     "titlePrefix": "A Self-Sustaining",
     "titleHighlight": "Ambassador Network",
-    "description": "Train a generation of African Bitcoin ambassadors who understand blockchain technology deeply, lead their communities with confidence, and shape the future of finance on the continent.",
+    "description": "Train a generation of Bitcoin ambassadors across the Americas who understand blockchain technology deeply, lead their communities with confidence, and shape the future of finance in the region.",
     "pillars": "Our ambassadors learn and teach across six core pillars:",
     "cardTitle": "Ambassador Network",
-    "cardSubtitle": "Pan-African · Multilingual · Open Source",
+    "cardSubtitle": "Americas-wide · Multilingual · Open Source",
     "footer": "Knowledge multiplies across borders and languages",
     "subjects": {
       "blockchain": "Blockchain & Bitcoin",
@@ -119,24 +119,24 @@
   },
   "why": {
     "label": "Why This Matters",
-    "titlePrefix": "Africa Needs You to",
+    "titlePrefix": "The Americas Need You to",
     "titleHighlight": "Become a Teacher",
-    "description": "Bitcoin education in Africa is growing - but it's not enough. Your communities need leaders who understand blockchain deeply. Build the future on the continent.",
+    "description": "Bitcoin education in the Americas is growing - but it's not enough. Your communities need leaders who understand blockchain deeply. Build the future in the region.",
     "quotePrefix": "\"Knowledge that stays in one language stays in one place.",
     "quoteHighlight": "We're changing that.\"",
     "quoteAuthor": "- Libreria de Satoshi",
     "reasons": {
       "gap": {
         "title": "The Gap Is Real",
-        "description": "Bitcoin adoption in Africa is growing fast, but deep technical education lags behind. Most content is in English and inaccessible to millions of young Africans."
+        "description": "Bitcoin adoption in the Americas is growing fast, but deep technical education lags behind. Most content is in English and out of reach for millions of Spanish and Portuguese speakers."
       },
       "languages": {
         "title": "Local Languages Matter",
         "description": "Education should live within communities, in the languages people think in. Knowledge taught in your mother tongue sticks, grows, and spreads."
       },
       "teachers": {
-        "title": "Africa Needs Teachers",
-        "description": "Your communities need leaders who understand blockchain deeply. The most powerful thing you can do is become a teacher - and Africa needs you now."
+        "title": "The Americas Need Teachers",
+        "description": "Your communities need leaders who understand blockchain deeply. The most powerful thing you can do is become a teacher - and the Americas need you now."
       }
     }
   },
@@ -149,7 +149,7 @@
     "steps": {
       "one": {
         "title": "Cohort-Based Learning",
-        "description": "Join a cohort of peers from across Africa. Learn together, support each other, and progress through structured modules with expert guidance."
+        "description": "Join a cohort of peers from across the Americas. Learn together, support each other, and progress through structured modules with expert guidance."
       },
       "two": {
         "title": "Hands-On Technical Training",
@@ -188,7 +188,7 @@
     "cards": {
       "certified": {
         "title": "Recognised educator",
-        "description": "Receive an official record of completion that recognises you as a qualified Bitcoin and open-source educator across Africa."
+        "description": "Receive an official record of completion that recognises you as a qualified Bitcoin and open-source educator across the Americas."
       },
       "earnAsYouLearn": {
         "title": "Earn as You Learn",
@@ -223,7 +223,7 @@
     "questionsSuffix": "with \"Ambassador Question\" in the subject line."
   },
   "footer": {
-    "description": "Building Africa's language-first, student-to-educator Bitcoin network. Knowledge that multiplies across borders.",
+    "description": "Building the Americas' language-first, student-to-educator Bitcoin network. Knowledge that multiplies across borders.",
     "navigation": "Navigation",
     "connect": "Connect",
     "poweredBy": "Powered by",
@@ -244,12 +244,12 @@
       "terms": "Terms of Use",
       "contact": "Contact"
     },
-    "copyright": "Copyright {{year}} Africa Bitcoin Education. All rights reserved."
+    "copyright": "Copyright {{year}} Americas Bitcoin Education. All rights reserved."
   },
   "application": {
     "backHome": "Back to home",
     "label": "Ambassador application",
-    "title": "Africa Bitcoin Education",
+    "title": "Americas Bitcoin Education",
     "description": "Complete all required fields. This takes about 5-15 minutes. Do not use AI tools to answer - we want your authentic voice.",
     "stepOf": "Step {{current}} of {{total}}",
     "back": "Back",
@@ -258,7 +258,7 @@
     "submitting": "Submitting...",
     "success": {
       "title": "Application received",
-      "description": "Thank you for applying to become an Africa Bitcoin Education Ambassador. We will review your submission and contact you within 5-7 business days. Please check your email (including spam)."
+      "description": "Thank you for applying to become an Americas Bitcoin Education Ambassador. We will review your submission and contact you within 5-7 business days. Please check your email (including spam)."
     },
     "sections": {
       "one": "Section 1 - Personal information",
@@ -276,10 +276,10 @@
       "additionalLanguages": "Do you speak any additional languages?",
       "readWriteLanguages": "Can you read and write in the languages specified above?",
       "readWriteLanguagesDetail": "Which language(s) can you read and write?",
-      "hearAbout": "How did you hear about the Africa Bitcoin Education Ambassador Program?",
+      "hearAbout": "How did you hear about the Americas Bitcoin Education Ambassador Program?",
       "hoursPerWeek": "How many hours per week can you commit?",
       "commitThreeMonths": "Can you commit to a minimum of 3 months?",
-      "hopeToLearn": "What do you hope to learn and achieve as an Africa Bitcoin Education Ambassador?",
+      "hopeToLearn": "What do you hope to learn and achieve as an Americas Bitcoin Education Ambassador?",
       "helpCommunity": "How can you help your community as an Ambassador through this program?",
       "hasLaptop": "Do you have a reliable computer or laptop?",
       "internetSpeedPrefix": "Average internet speed (run a test at",
@@ -298,7 +298,7 @@
       "internetSpeed": "e.g. 25 Mbps download",
       "teaching": "Describe any teaching, tutoring, or facilitation experience",
       "programming": "Describe any coding or technical experience (none is OK)",
-      "readWriteLanguagesDetail": "e.g. English, Swahili"
+      "readWriteLanguagesDetail": "e.g. Spanish, English"
     },
     "bitcoinOptions": {
       "beginner": "Beginner - I'm still learning",
@@ -316,33 +316,33 @@
     "wordsCount": "{{current}} / {{max}} words"
   },
   "brand": {
-    "prefix": "Africa",
+    "prefix": "Americas",
     "highlight": "Bitcoin"
   },
   "landing": {
     "nav": {
       "logoSuffix": ".",
       "program": "Program",
-      "whyAfrica": "Why Africa",
+      "whyAmericas": "Why the Americas",
       "howItWorks": "How it works",
       "faq": "FAQ",
       "applyNow": "Apply now"
     },
     "hero": {
-      "eyebrow": "Continent-wide · Multilingual · Free",
+      "eyebrow": "Americas-wide · Multilingual · Free",
       "titleLine1": "Learn Bitcoin.",
-      "titleLine2": "Teach Africa.",
+      "titleLine2": "Teach the Americas.",
       "titleEmphasis": "In your language.",
-      "description": "Join a structured Bitcoin education network building technical fluency across Africa in the languages people actually think in. Students become educators. Knowledge compounds.",
+      "description": "Join a structured Bitcoin education network building technical fluency across North America, Central America, the Caribbean, and South America, in the languages people actually think in. Students become educators. Knowledge compounds.",
       "applyAmbassador": "Apply as ambassador",
       "exploreProgram": "Explore the program",
       "cardTitle": "Program at a glance",
-      "statNumberCountries": "12+",
-      "statNumberLanguages": "5–10",
+      "statNumberCountries": "[n]",
+      "statNumberLanguages": "3",
       "statNumberWeeks": "12 weeks",
       "statNumberFree": "Free",
-      "statCountries": "Countries · Nigeria, Ghana, Cameroon, Cote D'ivoire, Senegal, Togo, Egypt, Kenya, Uganda, Tanzania + more",
-      "statLanguages": "African languages · Luganda, Kikuyu, Twi, Swahili, French…",
+      "statCountries": "Countries · Mexico, Guatemala, El Salvador, Colombia, Argentina, Brazil + more [to confirm]",
+      "statLanguages": "Languages · Spanish, English, Portuguese",
       "statSchedule": "Cohort-based program · 90 min/week + 10 hrs reading",
       "statFree": "learn at zero cost"
     },
@@ -355,7 +355,7 @@
       "tabPartners": "Partners",
       "students": {
         "title": "Start learning Bitcoin in your language",
-        "body": "Free, structured Bitcoin education for Africans. Learn blockchain, cryptography, economics, and coding. No prior experience needed, just the drive to understand and the commitment to share.",
+        "body": "Free, structured Bitcoin education for the Americas. Learn blockchain, cryptography, economics, and coding. No prior experience needed, just the drive to understand and the commitment to share.",
         "applyCta": "Apply as ambassador",
         "tileCommitment": "Commitment",
         "tileCommitmentValue": "90 min/week + 10 hrs reading",
@@ -368,23 +368,25 @@
           "High school, university, or graduate students",
           "Anyone eager to learn Bitcoin, no prior knowledge required",
           "Willing to share knowledge in your local language",
-          "Fluent in at least 2 languages (English inclusive)",
+          "Fluent in at least 2 languages (Spanish, English, or Portuguese)",
           "Have reliable internet and a computer or smartphone"
         ],
         "colLangTitle": "Languages we support",
+        "pillSpanish": "Spanish",
         "pillEnglish": "English",
-        "pillFrench": "French",
+        "pillPortuguese": "Portuguese",
         "pillMore": "+ more",
         "colCountriesTitle": "Countries we're active in",
-        "countryNigeria": "Nigeria",
-        "countryGhana": "Ghana",
-        "countryKenya": "Kenya",
-        "countryUganda": "Uganda",
-        "countryTanzania": "Tanzania"
+        "countryMexico": "Mexico",
+        "countryGuatemala": "Guatemala",
+        "countryElSalvador": "El Salvador",
+        "countryColombia": "Colombia",
+        "countryArgentina": "Argentina",
+        "countryBrazil": "Brazil"
       },
       "teachers": {
         "title": "Become a recognised Bitcoin educator",
-        "body": "Join our tutor network. Train a cohort of 8–12 students, localize curriculum into regional languages, and build Africa's next generation of technical Bitcoin educators. Get compensated for your expertise.",
+        "body": "Join our tutor network. Train a cohort of 8–12 students, localize curriculum into regional languages, and build the Americas' next generation of technical Bitcoin educators. Get compensated for your expertise.",
         "applyCta": "Apply as tutor",
         "tilePersonas": "Tutor personas",
         "tilePersonasValue": "SME · Technical SME · Professor · Event Organizer",
@@ -409,11 +411,11 @@
         "journeyPhase3Body": "Collect feedback, refine curriculum, mentor next cohort"
       },
       "partners": {
-        "title": "Scale Bitcoin education across Africa",
-        "body": "Co-build a continent-wide, language-first Bitcoin knowledge network. Support curriculum development, events, infrastructure, and ambassador growth across 7+ countries.",
+        "title": "Scale Bitcoin education across the Americas",
+        "body": "Co-build a language-first Bitcoin knowledge network across the Americas. Support curriculum development, events, infrastructure, and ambassador growth across the region.",
         "cta": "Explore partnership",
         "tileReach": "Our reach",
-        "tileReachValue": "7 countries · 12–14 cities · 56+ ambassadors",
+        "tileReachValue": "[n] countries · [n] cities · [n] ambassadors",
         "tileOpportunity": "The opportunity",
         "tileOpportunityValue": "Language-first · Grassroots · Scalable",
         "tileHub": "Core hub",
@@ -441,7 +443,7 @@
       "cards": [
         {
           "title": "Cohort-based learning",
-          "body": "Small, focused groups across African countries. Guided sessions with weekly check-ins ensure accountability and real progress, not passive watching."
+          "body": "Small, focused groups across the Americas. Guided sessions with weekly check-ins ensure accountability and real progress, not passive watching."
         },
         {
           "title": "Hands-on technical training",
@@ -461,7 +463,7 @@
         },
         {
           "title": "Recognition",
-          "body": "When you finish, you receive an official record of completion you can share on LinkedIn, access to the educator network, and priority for grant opportunities across Africa."
+          "body": "When you finish, you receive an official record of completion you can share on LinkedIn, access to the educator network, and priority for grant opportunities across the Americas."
         }
       ]
     },
@@ -472,7 +474,7 @@
       "cards": [
         {
           "title": "Recognised educator",
-          "body": "Receive an official record of completion that recognises you as a qualified Bitcoin and open-source educator across Africa."
+          "body": "Receive an official record of completion that recognises you as a qualified Bitcoin and open-source educator across the Americas."
         },
         {
           "title": "Earn as you learn",
@@ -501,8 +503,8 @@
       "title": "Frequently asked",
       "items": [
         {
-          "question": "What is Bitcoin, and why does it matter for Africa?",
-          "answer": "Bitcoin is a digital currency that allows you to send and receive money without banks or intermediaries. It runs on a decentralized network called blockchain, where transactions are verified worldwide and recorded on a public ledger that no single entity controls. For Africa, where millions lack access to traditional banking, Bitcoin represents financial infrastructure that belongs to everyone."
+          "question": "What is Bitcoin, and why does it matter for the Americas?",
+          "answer": "Bitcoin is a digital currency that allows you to send and receive money without banks or intermediaries. It runs on a decentralized network called blockchain, where transactions are verified worldwide and recorded on a public ledger that no single entity controls. For the Americas, where millions are unbanked, face high inflation, or depend on costly remittances, Bitcoin represents financial infrastructure that belongs to everyone."
         },
         {
           "question": "Do I need prior Bitcoin or tech experience?",
@@ -514,7 +516,7 @@
         },
         {
           "question": "Why do I need to speak two languages?",
-          "answer": "The core of this program is localization, making Bitcoin education accessible to communities that don't speak English. Ambassadors who are fluent in at least two languages (English included) can bridge that gap for the next cohort. The bilingual requirement is not a barrier; it's your superpower in this network."
+          "answer": "The core of this program is localization, making Bitcoin education accessible in the languages people speak across the region. Ambassadors who are fluent in at least two languages (Spanish, English, or Portuguese) can bridge that gap for the next cohort. The bilingual requirement is not a barrier; it's your superpower in this network."
         },
         {
           "question": "What happens after I complete the program?",
@@ -522,22 +524,22 @@
         },
         {
           "question": "Is Bitcoin legal in my country?",
-          "answer": "Bitcoin's legal status varies by country. In most African countries, Bitcoin is legal to own and use, though regulations differ. Some countries have embraced it, others have restrictions on businesses, and a few have specific bans. Our program teaches you about Bitcoin's technical foundations and how to navigate the regulatory landscape in your region safely."
+          "answer": "Bitcoin's legal status varies by country. Across the Americas, Bitcoin is legal to own and use in most countries, though regulations differ. Some countries have embraced it, others regulate exchanges and businesses closely, and a few restrict it. Our program teaches you about Bitcoin's technical foundations and how to navigate the regulatory landscape in your region safely."
         }
       ]
     },
     "cta": {
       "titleLine1": "Ready to be part of",
-      "titleLine2": "Africa's Bitcoin",
+      "titleLine2": "the Americas' Bitcoin",
       "titleEmphasis": "future?",
-      "description": "Whether you're here to learn, teach, or invest in this mission, there's a place for you. Join the network building Bitcoin education from the ground up, in every African language.",
+      "description": "Whether you're here to learn, teach, or invest in this mission, there's a place for you. Join the network building Bitcoin education from the ground up, across the Americas.",
       "applyLearner": "Apply as student",
       "becomeTutor": "Become a tutor",
       "partnerWithUs": "Partner with us"
     }
   },
   "unifiedFooter": {
-    "newsletterTitle": "Stay updated on Bitcoin education across Africa",
+    "newsletterTitle": "Stay updated on Bitcoin education across the Americas",
     "newsletterDescription": "Get updates on new programs, ambassador stories, and resources delivered to your inbox.",
     "emailPlaceholder": "Enter your email",
     "subscribe": "Subscribe",
@@ -562,10 +564,10 @@
     "linkDocumentation": "Documentation",
     "linkFaq": "FAQ",
     "linkContact": "Contact",
-    "connectBlurb": "Join our community across Africa and stay connected.",
-    "bottomLead": "Africa Bitcoin Education",
-    "bottomTagline": "Building technical fluency across Africa in every language.",
-    "copyright": "Copyright {{year}} Africa Bitcoin Education. All rights reserved.",
+    "connectBlurb": "Join our community across the Americas and stay connected.",
+    "bottomLead": "Americas Bitcoin Education",
+    "bottomTagline": "Building technical fluency across the Americas in every language.",
+    "copyright": "Copyright {{year}} Americas Bitcoin Education. All rights reserved.",
     "legalPrivacy": "Privacy policy",
     "legalTerms": "Terms of service",
     "legalConduct": "Code of conduct",

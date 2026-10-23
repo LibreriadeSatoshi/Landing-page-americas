@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { ArrowLeft, ArrowRight, CheckCircle, Send, WarningCircle } from 'iconoir-react';
 import {
   ADDITIONAL_LANGUAGES_OPTIONS,
-  AFRICAN_COUNTRIES,
+  AMERICAS_COUNTRIES,
   type ApplicationIntent,
   HEAR_ABOUT_OPTIONS,
   HOURS_PER_WEEK_OPTIONS,
@@ -202,8 +202,8 @@ export default function ApplicationWizard({
     setSubmitting(true);
     setSubmitError(false);
     try {
-      const base = (i18n.language ?? 'en').slice(0, 2).toLowerCase();
-      const locale = ['en', 'fr', 'sw'].includes(base) ? base : 'en';
+      const base = (i18n.language ?? 'es').slice(0, 2).toLowerCase();
+      const locale = ['es', 'en', 'pt'].includes(base) ? base : 'es';
 
       const res = await fetch('/api/application-submit', {
         method: 'POST',
@@ -347,7 +347,7 @@ export default function ApplicationWizard({
                     {...register('country', { required: 'Required' })}
                   >
                     <option value="">{t('application.select.country')}</option>
-                    {AFRICAN_COUNTRIES.map((c) => (
+                    {AMERICAS_COUNTRIES.map((c) => (
                       <option key={c} value={c}>
                         {c}
                       </option>

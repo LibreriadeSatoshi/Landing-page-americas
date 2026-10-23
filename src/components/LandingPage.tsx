@@ -90,7 +90,7 @@ function LandingPage({ onApply }: LandingPageProps) {
               <a href="#about">{t('landing.nav.program')}</a>
             </li>
             <li>
-              <a href="#about">{t('landing.nav.whyAfrica')}</a>
+              <a href="#about">{t('landing.nav.whyAmericas')}</a>
             </li>
             <li>
               <a href="#program">{t('landing.nav.howItWorks')}</a>
@@ -262,12 +262,11 @@ function LandingPage({ onApply }: LandingPageProps) {
               <div>
                 <div className="col-head">{t('landing.programSection.students.colLangTitle')}</div>
                 <div className="pill-row">
+                  <span className="pill">{t('landing.programSection.students.pillSpanish')}</span>
                   <span className="pill">{t('landing.programSection.students.pillEnglish')}</span>
-                  <span className="pill">{t('landing.programSection.students.pillFrench')}</span>
-                  <span className="pill">Luganda</span>
-                  <span className="pill">Kikuyu</span>
-                  <span className="pill">Twi</span>
-                  <span className="pill">Swahili</span>
+                  <span className="pill">
+                    {t('landing.programSection.students.pillPortuguese')}
+                  </span>
                   <span className="pill">{t('landing.programSection.students.pillMore')}</span>
                 </div>
                 <div className="col-group">
@@ -276,19 +275,22 @@ function LandingPage({ onApply }: LandingPageProps) {
                   </div>
                   <div className="pill-row">
                     <span className="pill">
-                      {t('landing.programSection.students.countryNigeria')}
+                      {t('landing.programSection.students.countryMexico')}
                     </span>
                     <span className="pill">
-                      {t('landing.programSection.students.countryGhana')}
+                      {t('landing.programSection.students.countryGuatemala')}
                     </span>
                     <span className="pill">
-                      {t('landing.programSection.students.countryKenya')}
+                      {t('landing.programSection.students.countryElSalvador')}
                     </span>
                     <span className="pill">
-                      {t('landing.programSection.students.countryUganda')}
+                      {t('landing.programSection.students.countryColombia')}
                     </span>
                     <span className="pill">
-                      {t('landing.programSection.students.countryTanzania')}
+                      {t('landing.programSection.students.countryArgentina')}
+                    </span>
+                    <span className="pill">
+                      {t('landing.programSection.students.countryBrazil')}
                     </span>
                     <span className="pill">{t('landing.programSection.students.pillMore')}</span>
                   </div>
@@ -398,7 +400,7 @@ function LandingPage({ onApply }: LandingPageProps) {
                 </div>
                 <h3>{t('landing.programSection.partners.title')}</h3>
                 <p>{t('landing.programSection.partners.body')}</p>
-                <a href="mailto:ambassadors@africabitcoineducation.org" className="ism-btn">
+                <a href="mailto:ambassadors@ismos.xyz" className="ism-btn">
                   {t('landing.programSection.partners.cta')}
                 </a>
               </div>
@@ -553,7 +555,7 @@ function LandingPage({ onApply }: LandingPageProps) {
               {t('landing.cta.becomeTutor')}
             </button>
             <a
-              href="mailto:ambassadors@africabitcoineducation.org"
+              href="mailto:ambassadors@ismos.xyz"
               className="ism-btn ism-btn--on-color ism-btn--secondary"
             >
               {t('landing.cta.partnerWithUs')}
