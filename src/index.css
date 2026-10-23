@@ -1,0 +1,128 @@
+@import '../design/ismos/css/ismos.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles. ISMOS tokens only: no hex, loose px or shadows. */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--surface);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: var(--highlight);
+  color: var(--on-highlight);
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}
+
+/* Buttons: extends .ism-btn with the states the bundle leaves out.
+   Preflight's [type='button'] reset has the same specificity as .ism-btn and loads later,
+   so the fill is declared again here. */
+.ism-btn {
+  background: var(--action);
+  justify-content: center;
+  transition:
+    background var(--motion-fast) var(--ease-standard),
+    border-color var(--motion-fast) var(--ease-standard),
+    color var(--motion-fast) var(--ease-standard);
+}
+
+.ism-btn--secondary {
+  background: transparent;
+}
+
+/* Hover changes colour only: never lifts, moves or scales */
+.ism-btn:hover {
+  background: var(--logwood-800);
+  border-color: var(--logwood-800);
+}
+
+.ism-btn--secondary:hover {
+  background: var(--surface-raised);
+  border-color: var(--text);
+}
+
+.ism-btn:disabled {
+  cursor: not-allowed;
+  background: var(--track);
+  border-color: var(--track);
+  color: var(--text-muted);
+}
+
+.ism-btn svg {
+  width: 20px;
+  height: 20px;
+  flex: none;
+}
+
+/* Buttons on a full-bleed colour block: Paper fill, Ink type */
+.ism-btn--on-color {
+  background: var(--paper);
+  border-color: var(--paper);
+  color: var(--ink);
+}
+
+.ism-btn--on-color:hover {
+  background: var(--logwood-100);
+  border-color: var(--logwood-100);
+}
+
+.ism-btn--on-color.ism-btn--secondary {
+  background: transparent;
+  border-color: var(--paper);
+  color: var(--paper);
+}
+
+.ism-btn--on-color.ism-btn--secondary:hover {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.ism-root a.ism-btn--on-color,
+.ism-root a.ism-btn--on-color:hover {
+  color: var(--ink);
+}
+
+.ism-root a.ism-btn--on-color.ism-btn--secondary {
+  color: var(--paper);
+}
+
+.ism-root a.ism-btn--on-color.ism-btn--secondary:hover {
+  color: var(--ink);
+}
+
+/* Focus ring on colour blocks: Weld reads on Mauveine, Indigo and Logwood */
+.ism-block :focus-visible {
+  outline-color: var(--weld);
+}

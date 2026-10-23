@@ -1,0 +1,657 @@
+/* Landing page. ISMOS tokens only (design/ismos/css/tokens.css): no hex, loose px or shadows.
+   Full-bleed colour blocks: hero (Mauveine), how it works (Indigo), call to action (Logwood).
+   Everything else sits on the semantic surface and follows light / Hacker mode. */
+
+.landing-page-root {
+  min-height: 100vh;
+}
+
+:where(.landing-page-root) :where(h1, h2, h3, h4) {
+  margin: 0;
+  color: inherit;
+}
+
+:where(.landing-page-root) :where(p, ul) {
+  margin: 0;
+  padding: 0;
+}
+
+/* Text on a colour block is Paper, links included */
+.ism-block {
+  color: var(--paper);
+}
+
+.ism-block a:not(.ism-btn) {
+  color: var(--paper);
+}
+
+/* Navigation: Ink, full bleed, sticky */
+.landing-page-root > nav {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-sticky);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-16);
+  min-height: 64px;
+  padding: 0 var(--page-margin-mobile);
+  background: var(--ink);
+  color: var(--paper);
+  border-bottom: var(--rule-1) solid var(--logwood-700);
+}
+
+.ism-root .nav-logo {
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 600;
+  color: var(--paper);
+  text-decoration: none;
+}
+
+.nav-logo span {
+  color: var(--mauveine-200);
+}
+
+.landing-nav-end {
+  display: flex;
+  align-items: center;
+  gap: var(--space-16);
+}
+
+.nav-links {
+  display: none;
+  align-items: center;
+  gap: var(--space-24);
+  list-style: none;
+}
+
+.ism-root .nav-links a {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+  color: var(--paper);
+  text-decoration: none;
+}
+
+.ism-root .nav-links a:hover {
+  text-decoration: underline;
+  text-underline-offset: var(--space-4);
+}
+
+.ism-root .nav-links a.nav-cta {
+  margin-inline-start: var(--space-8);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.landing-lang-switcher {
+  margin-inline-start: auto;
+}
+
+/* Section scaffold */
+.section {
+  padding: var(--space-64) var(--page-margin-mobile);
+}
+
+.section-inner,
+.hero-grid {
+  max-width: var(--content-max);
+  margin: 0 auto;
+}
+
+.section-label {
+  margin-bottom: var(--space-12);
+}
+
+.section-label::before,
+.hero-eyebrow::before {
+  content: '';
+  display: block;
+  width: 32px;
+  height: var(--rule-6);
+  margin-bottom: var(--space-16);
+  background: var(--bar);
+}
+
+.section-title {
+  font-family: var(--font-serif);
+  font-size: 27px;
+  line-height: 1.15;
+  font-weight: 400;
+  color: var(--text-heading);
+  text-wrap: balance;
+  margin-bottom: var(--space-16);
+}
+
+.section-sub {
+  max-width: var(--reading-column);
+  font-size: 19px;
+  line-height: 30px;
+  color: var(--text-muted);
+  text-wrap: pretty;
+  margin-bottom: var(--space-48);
+}
+
+.ism-block .section-title {
+  color: var(--paper);
+}
+
+.ism-block .section-sub {
+  color: var(--paper);
+}
+
+.ism-block .section-label {
+  color: var(--paper);
+}
+
+.ism-block .section-label::before,
+.ism-block .hero-eyebrow::before {
+  background: var(--paper);
+}
+
+/* Hero: Mauveine block */
+.hero {
+  background: var(--mauveine);
+  padding: var(--space-64) var(--page-margin-mobile);
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-48);
+  align-items: center;
+}
+
+.hero-eyebrow {
+  margin-bottom: var(--space-24);
+}
+
+.hero h1 {
+  font-family: var(--font-serif);
+  font-size: 32px;
+  line-height: 1.15;
+  font-weight: 400;
+  text-wrap: balance;
+  margin-bottom: var(--space-24);
+}
+
+.hero h1 em,
+.cta-banner h2 em {
+  font-style: italic;
+}
+
+.hero-sub {
+  max-width: var(--reading-column);
+  font-size: 19px;
+  line-height: 30px;
+  text-wrap: pretty;
+  margin-bottom: var(--space-32);
+}
+
+.hero-actions,
+.cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-12);
+}
+
+/* Hero facts: Paper rules on the block, figures in Plex Mono */
+.hero-card {
+  border-top: var(--rule-2) solid var(--paper);
+  padding-top: var(--space-16);
+}
+
+.hero-card-label {
+  margin-bottom: var(--space-16);
+}
+
+.stat-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-item {
+  padding: var(--space-16) 0;
+  border-bottom: var(--rule-1) solid var(--paper);
+}
+
+.stat-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.stat-number {
+  font-family: var(--font-mono);
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.stat-label {
+  margin-top: var(--space-4);
+  font-size: 15px;
+  line-height: 24px;
+}
+
+/* Audience tabs: text only, active = weight 600 + 2px underline */
+.tabs-nav {
+  display: flex;
+  gap: var(--space-24);
+  margin-bottom: var(--space-32);
+  border-bottom: var(--rule-1) solid var(--hairline);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.tab-btn {
+  flex: none;
+  min-height: var(--tap-target);
+  padding: 0;
+  margin-bottom: calc(var(--rule-1) * -1);
+  border: none;
+  border-bottom: var(--rule-2) solid transparent;
+  background: transparent;
+  font-family: var(--font-sans);
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--text-muted);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: color var(--motion-fast) var(--ease-standard);
+}
+
+.tab-btn:hover {
+  color: var(--text);
+}
+
+.tab-btn.active {
+  font-weight: 600;
+  color: var(--text);
+  border-bottom-color: var(--rule-strong);
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
+/* Audience panel: bar on top, hairline edge, radius 4 */
+.panel-hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-32);
+  align-items: start;
+  padding: var(--space-24);
+  border: var(--rule-1) solid var(--hairline);
+  border-top: var(--rule-6) solid var(--bar);
+  border-radius: var(--radius-4);
+  background: var(--surface-raised);
+}
+
+.panel-hero-icon {
+  display: flex;
+  margin-bottom: var(--space-16);
+  color: var(--text);
+}
+
+.panel-hero-icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.panel-hero h3 {
+  font-family: var(--font-serif);
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 400;
+  color: var(--text-heading);
+  text-wrap: balance;
+  margin-bottom: var(--space-12);
+}
+
+.panel-hero p {
+  font-size: 17px;
+  line-height: 28px;
+  color: var(--text);
+  margin-bottom: var(--space-24);
+}
+
+.feature-tiles {
+  display: grid;
+  grid-template-columns: 1fr;
+  border-top: var(--rule-2) solid var(--rule-strong);
+}
+
+.feature-tile {
+  padding: var(--space-16) 0;
+  border-bottom: var(--rule-1) solid var(--hairline);
+}
+
+.tile-label {
+  margin-bottom: var(--space-4);
+}
+
+.tile-value {
+  font-family: var(--font-serif);
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: 500;
+  color: var(--text-heading);
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-32);
+  margin-top: var(--space-48);
+}
+
+.col-head {
+  font-family: var(--font-serif);
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: 500;
+  color: var(--text-heading);
+  padding-bottom: var(--space-8);
+  border-bottom: var(--rule-2) solid var(--rule-strong);
+  margin-bottom: var(--space-16);
+}
+
+.col-group {
+  margin-top: var(--space-32);
+}
+
+.check-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+}
+
+.check-list li {
+  display: flex;
+  gap: var(--space-12);
+  align-items: flex-start;
+  font-size: 17px;
+  line-height: 28px;
+  color: var(--text);
+}
+
+.check-list li svg {
+  width: 20px;
+  height: 20px;
+  flex: none;
+  margin-top: var(--space-4);
+}
+
+/* Languages, countries and partner types: Plex Mono labels split by a middle dot */
+.pill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8) 0;
+  list-style: none;
+}
+
+.pill {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.pill:not(:last-child)::after {
+  content: '\00B7';
+  padding: 0 var(--space-8);
+}
+
+/* How it works: Indigo block, numbered steps under a Paper rule */
+.section-dark {
+  background: var(--indigo);
+}
+
+.how-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-32) var(--gutter);
+}
+
+.how-card {
+  padding-top: var(--space-16);
+  border-top: var(--rule-2) solid var(--paper);
+}
+
+.how-num {
+  font-family: var(--font-mono);
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  margin-bottom: var(--space-12);
+}
+
+.how-card h4 {
+  font-family: var(--font-serif);
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: var(--space-8);
+}
+
+.how-card p {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+/* Benefits: cards with the bar on top, hairline edge */
+.benefits-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--gutter);
+}
+
+.benefit-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-12);
+  padding: var(--space-24);
+  border: var(--rule-1) solid var(--hairline);
+  border-radius: var(--radius-4);
+  background: var(--surface);
+}
+
+.benefit-icon {
+  display: flex;
+  color: var(--text);
+}
+
+.benefit-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.benefit-card h4 {
+  font-family: var(--font-serif);
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: 500;
+  color: var(--text-heading);
+}
+
+.benefit-card p {
+  font-size: 15px;
+  line-height: 24px;
+  color: var(--text);
+}
+
+/* FAQ: accordion, hairline between rows, chevron rotates 180deg */
+.faq-list {
+  max-width: var(--reading-column);
+  border-top: var(--rule-2) solid var(--rule-strong);
+}
+
+.faq-item {
+  border-bottom: var(--rule-1) solid var(--hairline);
+}
+
+.faq-q {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-16);
+  width: 100%;
+  min-height: var(--size-input);
+  padding: var(--space-12) 0;
+  border: none;
+  background: none;
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 600;
+  text-align: start;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.faq-q .icon {
+  display: flex;
+  flex: none;
+  transition: transform var(--motion-fast) var(--ease-standard);
+}
+
+.faq-q .icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.faq-item.open .faq-q .icon {
+  transform: rotate(180deg);
+}
+
+.faq-a {
+  display: none;
+  padding-bottom: var(--space-16);
+  font-size: 17px;
+  line-height: 28px;
+  color: var(--text);
+}
+
+.faq-item.open .faq-a {
+  display: block;
+}
+
+/* Call to action: Logwood block */
+.cta-banner {
+  background: var(--logwood);
+  padding: var(--space-64) var(--page-margin-mobile);
+}
+
+.cta-inner {
+  max-width: var(--content-max);
+  margin: 0 auto;
+}
+
+.cta-banner h2 {
+  font-family: var(--font-serif);
+  font-size: 27px;
+  line-height: 1.15;
+  font-weight: 400;
+  text-wrap: balance;
+  margin-bottom: var(--space-16);
+}
+
+.cta-banner p {
+  max-width: var(--reading-column);
+  font-size: 19px;
+  line-height: 30px;
+  margin-bottom: var(--space-32);
+}
+
+@media (max-width: 639px) {
+  .hero-actions .ism-btn,
+  .cta-actions .ism-btn,
+  .panel-hero .ism-btn {
+    width: 100%;
+  }
+}
+
+@media (min-width: 640px) {
+  .landing-page-root > nav,
+  .section,
+  .hero,
+  .cta-banner {
+    padding-inline: var(--page-margin);
+  }
+
+  .hero h1 {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .section-title,
+  .cta-banner h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .panel-hero {
+    padding: var(--space-32);
+  }
+
+  .feature-tiles {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: var(--gutter);
+  }
+
+  .benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .nav-links {
+    display: flex;
+  }
+
+  .landing-lang-switcher {
+    margin-inline-start: 0;
+  }
+
+  .hero,
+  .section,
+  .cta-banner {
+    padding-block: var(--space-96);
+  }
+
+  .hero-grid {
+    grid-template-columns: 7fr 5fr;
+    gap: var(--space-64);
+  }
+
+  .panel-hero {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-48);
+  }
+
+  .feature-tiles {
+    grid-template-columns: 1fr;
+  }
+
+  .two-col {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-48);
+  }
+
+  .how-grid,
+  .benefits-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,40 @@
+---
+description: Guardrails for AI-assisted edits (Cursor / Claude Code) — scope, git, and safety
+alwaysApply: true
+---
+
+# Africa Landing Page — AI workflow guardrails
+
+## Scope
+
+- Implement **only** what the user asked for. No drive-by refactors.
+- Prefer **small diffs**. If a task touches many files, split into steps and confirm between steps.
+- **Do not** change `vite.config.ts`, `package.json`, `tailwind.config.js`, `tsconfig*.json`, or CI/husky config unless explicitly requested.
+
+## Git workflow
+
+- **Never** commit directly to `main` or `master`.
+- Create a branch: `feature/short-description` or `fix/short-description`
+- If branching is not possible, tell the user exactly which commands to run.
+
+## When the task is "done"
+
+1. `npm run format` — auto-fix formatting
+2. `npm run test:fast` — validates all translation keys exist in FR and SW (~3s)
+3. `npm run build` — TypeScript + Vite build check
+4. Commit on the feature branch
+5. Push — the pre-push hook runs `tsc -b` automatically
+6. Open a Pull Request into `main`. Do not merge yourself.
+7. Ensure a human reviewer is assigned before merge.
+
+## Translations
+
+- EN (`src/locales/en/common.json`) is the source of truth.
+- Every key added to EN **must** be added to FR and SW in the same PR.
+- `npm run test:fast` will fail if any key is missing — this blocks the PR in CI.
+
+## Hard limits
+
+- **Do not** force-push to `main`/`master`.
+- **Do not** push API keys, tokens, or secrets into the repo.
+- **Do not** merge PRs without at least one human approval.

@@ -1,0 +1,25 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[context.deploy-preview]
+  command = "npm run build"
+
+[context.branch-deploy]
+  command = "npm run build"
+
+# Pretty URL for the newsletter-subscribe Netlify function.
+# /api/newsletter-subscribe → /.netlify/functions/newsletter-subscribe
+[[redirects]]
+  from = "/api/newsletter-subscribe"
+  to = "/.netlify/functions/newsletter-subscribe"
+  status = 200
+
+[[redirects]]
+  from = "/api/application-submit"
+  to = "/.netlify/functions/application-submit"
+  status = 200

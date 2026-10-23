@@ -1,0 +1,52 @@
+/* Application flow header: Ink, full bleed, fixed. ISMOS tokens only. */
+.app-header {
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: var(--z-sticky);
+  background: var(--ink);
+  border-bottom: var(--rule-1) solid var(--logwood-700);
+}
+
+.app-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-16);
+  max-width: var(--content-max);
+  min-height: 64px;
+  margin: 0 auto;
+  padding: 0 var(--page-margin-mobile);
+}
+
+.app-header__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-8);
+  min-height: var(--tap-target);
+  padding: 0;
+  border: none;
+  background: transparent;
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 600;
+  color: var(--paper);
+  text-align: start;
+  cursor: pointer;
+}
+
+.app-header__mark {
+  font-family: var(--font-mono);
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.app-header__highlight {
+  color: var(--mauveine-200);
+}
+
+@media (min-width: 640px) {
+  .app-header__inner {
+    padding-inline: var(--page-margin);
+  }
+}

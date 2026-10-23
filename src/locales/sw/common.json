@@ -1,0 +1,577 @@
+{
+  "common": {
+    "yes": "Ndiyo",
+    "no": "Hapana"
+  },
+  "nav": {
+    "forLearners": "Kwa Wanafunzi",
+    "forEducators": "Kwa Walimu",
+    "forPartners": "Kwa Washirika"
+  },
+  "header": {
+    "backToSite": "Rudi kwenye tovuti",
+    "about": "Kuhusu",
+    "program": "Programu",
+    "benefits": "Faida",
+    "applyNow": "Omba Sasa",
+    "toggleMenu": "Badili menyu"
+  },
+  "hero": {
+    "audiences": {
+      "learners": "Jiunge na mpango wetu wa ubalozi ili kubobea Bitcoin na kuwa mwalimu wa jamii",
+      "educators": "Pata rasilimali za kufundisha na zana za kuwezesha mafunzo ya Bitcoin",
+      "partners": "Shiriki nasi kupanua elimu ya Bitcoin barani Afrika"
+    },
+    "badge": {
+      "learners": "Maombi yamefunguliwa: Mpango wa Mabalozi wa Afrika 2026",
+      "educators": "Rasilimali za Walimu Zinapatikana",
+      "partners": "Fursa za Ushirikiano"
+    },
+    "title": {
+      "learners": {
+        "prefix": "Jifunze Bitcoin.",
+        "highlight": "Fundisha",
+        "middle": "Jamii Yako.",
+        "suffix": "Unda Mustakabali wa Afrika."
+      },
+      "educators": {
+        "prefix": "Fundisha walimu.",
+        "highlight": "Wezesha",
+        "middle": "Mafunzo ya Bitcoin.",
+        "suffix": "Imarisha jamii."
+      },
+      "partners": {
+        "prefix": "Shiriki Nasi.",
+        "highlight": "Panua",
+        "middle": "Elimu ya Bitcoin.",
+        "suffix": "Athiri Mamilioni."
+      }
+    },
+    "description": {
+      "learners": "Jiunge na harakati ya vijana viongozi wa Afrika wanaojenga uelewa wa kiufundi wa Bitcoin, blockchain na teknolojia huria - kwa lugha yako, kwa kasi yako.",
+      "educators": "Pata nyenzo kamili za kufundisha, miongozo ya kuwezesha mafunzo, na zana za kujenga jamii ili kufundisha kwa ufanisi dhana za Bitcoin na blockchain.",
+      "partners": "Shiriki kazi na mashirika, kampuni, na taasisi ili kuleta elimu bora ya Bitcoin katika jamii barani Afrika na zaidi."
+    },
+    "stats": {
+      "countries": "Nchi za Afrika",
+      "free": "Programu ya Bure"
+    },
+    "cta": {
+      "learners": {
+        "apply": "Omba sasa. Ni bure",
+        "learnMore": "Jifunze Zaidi"
+      },
+      "educators": {
+        "apply": "Pata Rasilimali",
+        "learnMore": "Jifunze Zaidi"
+      },
+      "partners": {
+        "apply": "Shiriki Nasi",
+        "learnMore": "Jifunze Zaidi"
+      }
+    },
+    "scrollAria": "Telezesha chini",
+    "scrollLabel": "Telezesha"
+  },
+  "what": {
+    "label": "Tunachojenga",
+    "title": "Mtandao wa Elimu ya Bitcoin wa Afrika unaoanza kwa lugha",
+    "description": "Libreria de Satoshi inajenga programu kubwa zaidi ya elimu ya teknolojia na mabalozi ya Afrika. Mtandao unaojitegemea wa vijana viongozi wa Afrika wanaobobea katika ujuzi wa kisasa wa dijitali, na kuzidisha maarifa hayo katika jamii zao.",
+    "quote": "\"Kupitia kujifunza kwa makundi, mafunzo ya vitendo na ushauri, wanafunzi wenye malengo wanakuwa walimu wenye kujiamini na viongozi wa jamii.\"",
+    "cards": {
+      "reach": {
+        "title": "Ufikiaji wa Bara Zima",
+        "description": "Programu ya pana ya Afrika inayofikia kila kona, ikivuka mipaka na vizuizi vya lugha."
+      },
+      "knowledge": {
+        "title": "Maarifa ya Kina ya Kiufundi",
+        "description": "Misingi ya Bitcoin, sayansi ya kompyuta, zana za wazi, kriptografia, uandishi wa msimbo, uchumi na AI."
+      },
+      "community": {
+        "title": "Ukuaji wa Jamii",
+        "description": "Kutoka mwanafunzi hadi mwalimu. Jenga urithi wa kudumu kwa jamii yako."
+      }
+    }
+  },
+  "goal": {
+    "label": "Lengo Letu",
+    "titlePrefix": "Mtandao Endelevu",
+    "titleHighlight": "wa Mabalozi",
+    "description": "Kufundisha kizazi cha mabalozi wa Bitcoin wa Afrika wanaoelewa blockchain kwa kina, kuongoza jamii zao kwa ujasiri, na kuunda mustakabali wa fedha barani.",
+    "pillars": "Mabalozi wetu hujifunza na kufundisha kupitia nguzo sita:",
+    "cardTitle": "Mtandao wa Mabalozi",
+    "cardSubtitle": "Pan-Afrika · Lugha Nyingi · Open Source",
+    "footer": "Maarifa huzidishwa kuvuka mipaka na lugha",
+    "subjects": {
+      "blockchain": "Blockchain na Bitcoin",
+      "cs": "Sayansi ya Kompyuta",
+      "econMath": "Uchumi na Hisabati",
+      "crypto": "Kriptografia",
+      "coding": "Ujuzi wa Uandishi wa Msimbo",
+      "ai": "Akili Bandia"
+    },
+    "tiers": {
+      "learner": "Mwanafunzi",
+      "ambassador": "Balozi",
+      "educator": "Mwalimu",
+      "leader": "Kiongozi"
+    }
+  },
+  "why": {
+    "label": "Kwa Nini Hii ni Muhimu",
+    "titlePrefix": "Afrika inakuhitaji",
+    "titleHighlight": "uwe mwalimu",
+    "description": "Elimu ya Bitcoin Afrika inakua - lakini haitoshi. Jamii zinahitaji viongozi wanaoelewa blockchain kwa kina.",
+    "quotePrefix": "\"Maarifa yanayobaki kwenye lugha moja hubaki mahali pamoja.",
+    "quoteHighlight": "Tunabadilisha hilo.\"",
+    "quoteAuthor": "- Libreria de Satoshi",
+    "reasons": {
+      "gap": {
+        "title": "Pengo ni Halisi",
+        "description": "Uenezaji wa Bitcoin Afrika unakua haraka, lakini elimu ya kina ya kiufundi bado ipo nyuma."
+      },
+      "languages": {
+        "title": "Lugha za Kiasili ni Muhimu",
+        "description": "Elimu inapaswa kuishi ndani ya jamii, kwa lugha ambazo watu hufikiri nazo."
+      },
+      "teachers": {
+        "title": "Afrika Inahitaji Walimu",
+        "description": "Jamii zinahitaji viongozi wenye uelewa wa kina wa blockchain."
+      }
+    }
+  },
+  "how": {
+    "label": "Inavyofanya Kazi",
+    "titlePrefix": "Njia yako kutoka",
+    "titleHighlight": "mwanafunzi hadi kiongozi",
+    "description": "Programu ya hatua kwa hatua inayokutoa kutoka mwanzo wa Bitcoin hadi mwalimu wa jamii ndani ya miezi michache.",
+    "stepLabel": "Hatua",
+    "steps": {
+      "one": {
+        "title": "Kujifunza kwa Kundi",
+        "description": "Jiunge na kundi la wenzao kutoka Afrika nzima na jifunze pamoja."
+      },
+      "two": {
+        "title": "Mafunzo ya Kiufundi ya Vitendo",
+        "description": "Fanya mazoezi na zana halisi za Bitcoin na programu huria."
+      },
+      "three": {
+        "title": "Uongozi na Ujanibishaji",
+        "description": "Boresha mawasiliano na uwezo wa kufundisha katika muktadha wa jamii yako."
+      },
+      "four": {
+        "title": "Kushirikisha Maarifa",
+        "description": "Andaa warsha na vikao vya jamii ili kuongeza athari."
+      },
+      "five": {
+        "title": "Uthibitisho wa Kazi",
+        "description": "Andika athari zako na ujenge historia inayoonyesha uongozi wako."
+      }
+    }
+  },
+  "benefits": {
+    "label": "Unachopata",
+    "titlePrefix": "Faida za kujiunga na",
+    "titleHighlight": "programu",
+    "description": "Kila kitu unachohitaji kuwa mwalimu wa Bitcoin mwenye kujiamini - bila gharama.",
+    "curriculumLabel": "Mtaala",
+    "curriculumTitle": "Utakachojifunza",
+    "curriculumDescription": "Mtaala wetu unakupa kila kitu kuanzia misingi hadi ujuzi wa kiufundi, kwa lugha yako na kasi yako.",
+    "subjects": {
+      "one": "Falsafa ya Bitcoin na Blockchain",
+      "two": "Misingi ya Sayansi ya Kompyuta",
+      "three": "Uchumi na Hisabati",
+      "four": "Kriptografia",
+      "five": "Misingi ya Uandishi wa Msimbo",
+      "six": "Utangulizi wa AI"
+    },
+    "cards": {
+      "certified": {
+        "title": "Mwalimu anayetambuliwa",
+        "description": "Pata hati rasmi ya kukamilisha inayokutambua kama mwalimu mwenye sifa wa Bitcoin na open-source barani Afrika."
+      },
+      "earnAsYouLearn": {
+        "title": "Pata Mara Unapojifunza",
+        "description": "Pokea malipo ya kifedha, ufikiaji wa ruzuku, na faida za kiuchumi kwa ushiriki wako wa shughuli na michango katika programu."
+      },
+      "internships": {
+        "title": "Mafunzo ya Kulipwa",
+        "description": "Wale waliofanya vizuri zaidi wanapata fursa za mafunzo ya kulipwa ndani ya ekosistema ya teknolojia na open-source."
+      },
+      "globalOpportunities": {
+        "title": "Jamii ya Kimataifa na Fursa",
+        "description": "Ungana na walimu wa Bitcoin na viongozi wa ekosistema duniani kote, na upate udhamini, mialiko ya mikutano na makazi ya kimataifa."
+      },
+      "techTraining": {
+        "title": "Mafunzo ya teknolojia ya kisasa",
+        "description": "Mafunzo ya vitendo katika Bitcoin, kriptografia, Blockchain, uandishi wa msimbo, AI, na zana za open-source na ujuzi unaofaa sasa na katika siku zijazo."
+      },
+      "portfolio": {
+        "title": "Portfolio ya Kimataifa",
+        "description": "Jenga portfolio halisi na inayothibitishwa ya kazi na michango inayojitokeza katika nafasi ya teknolojia ya kimataifa."
+      }
+    }
+  },
+  "enrollment": {
+    "label": "Omba Leo",
+    "title": "Uko tayari kujiunga?",
+    "description": "Anza maombi ya ubalozi - huchukua dakika 5 hadi 15.",
+    "cardTitle": "Maombi kamili kwa hatua tatu fupi",
+    "cardDescription": "Taarifa binafsi, muda wa kujitolea, na uzoefu wa Bitcoin.",
+    "start": "Anza maombi",
+    "questionsPrefix": "Maswali? Tuma barua pepe kwa",
+    "questionsSuffix": "ukiweka \"Ambassador Question\" kwenye kichwa cha ujumbe."
+  },
+  "footer": {
+    "description": "Kujenga mtandao wa Bitcoin wa Afrika, kutoka mwanafunzi hadi mwalimu.",
+    "navigation": "Urambazaji",
+    "connect": "Unganika",
+    "poweredBy": "Inaendeshwa na",
+    "social": {
+      "twitter": "Twitter",
+      "telegram": "Telegram",
+      "github": "GitHub"
+    },
+    "links": {
+      "home": "Mwanzo",
+      "about": "Kuhusu",
+      "program": "Programu",
+      "benefits": "Faida",
+      "apply": "Omba Sasa"
+    },
+    "legal": {
+      "privacy": "Sera ya Faragha",
+      "terms": "Masharti ya Matumizi",
+      "contact": "Wasiliana"
+    },
+    "copyright": "Hakimiliki {{year}} Africa Bitcoin Education. Haki zote zimehifadhiwa."
+  },
+  "application": {
+    "backHome": "Rudi nyumbani",
+    "label": "Maombi ya ubalozi",
+    "title": "Africa Bitcoin Education",
+    "description": "Jaza sehemu zote zinazohitajika. Hii huchukua dakika 5 hadi 15.",
+    "stepOf": "Hatua {{current}} kati ya {{total}}",
+    "back": "Rudi",
+    "continue": "Endelea",
+    "submit": "Wasilisha maombi",
+    "submitting": "Inawasilisha...",
+    "success": {
+      "title": "Maombi yamepokelewa",
+      "description": "Asante kwa kuomba kuwa balozi wa Africa Bitcoin Education. Tutakagua maombi yako na kuwasiliana nawe ndani ya siku 5-7 za kazi."
+    },
+    "sections": {
+      "one": "Sehemu ya 1 - Taarifa binafsi",
+      "two": "Sehemu ya 2 - Upatikanaji na kujitolea",
+      "three": "Sehemu ya 3 - Maarifa na uzoefu wa Bitcoin"
+    },
+    "fields": {
+      "fullName": "Jina kamili",
+      "email": "Barua pepe",
+      "gender": "Jinsia",
+      "country": "Nchi",
+      "city": "Mji wa makazi",
+      "timezone": "Saa za eneo",
+      "primaryLanguage": "Lugha kuu",
+      "additionalLanguages": "Je, unazungumza lugha nyingine?",
+      "readWriteLanguages": "Je, unaweza kusoma na kuandika lugha hizo?",
+      "readWriteLanguagesDetail": "Ni lugha zipi unazoweza kusoma na kuandika?",
+      "hearAbout": "Ulijuaje kuhusu programu ya ubalozi?",
+      "hoursPerWeek": "Unaweza kujitolea saa ngapi kwa wiki?",
+      "commitThreeMonths": "Unaweza kujitolea kwa angalau miezi 3?",
+      "hopeToLearn": "Unatarajia kujifunza na kufanikisha nini kama Balozi wa Africa Bitcoin Education?",
+      "helpCommunity": "Unawezaje kusaidia jamii yako kama Balozi kupitia programu hii?",
+      "hasLaptop": "Una kompyuta au laptop ya kuaminika?",
+      "internetSpeedPrefix": "Kasi ya wastani ya intaneti (fanya test kwenye",
+      "internetSpeedSuffix": ")",
+      "videoConferencing": "Unafahamu zana za mikutano ya video?",
+      "bitcoinKnowledge": "Ungeipimaje maarifa yako ya Bitcoin?",
+      "usedBitcoin": "Umewahi kutumia Bitcoin?",
+      "uniqueOptional": "Nini kinakufanya wa kipekee? (si lazima)",
+      "questionsForUs": "Una maswali yoyote kwetu? (si lazima)",
+      "teachingExperience": "Uzoefu wa kufundisha",
+      "programmingExperience": "Uzoefu wa programu",
+      "anythingElse": "Kuna jambo lingine ungependa kutuambia? (si lazima)"
+    },
+    "placeholders": {
+      "gender": "Jinsi unavyojitambulisha",
+      "internetSpeed": "mf. 25 Mbps download",
+      "teaching": "Eleza uzoefu wowote wa kufundisha au kuratibu",
+      "programming": "Eleza uzoefu wowote wa coding au kiufundi",
+      "readWriteLanguagesDetail": "mf. Kiingereza, Kiswahili"
+    },
+    "bitcoinOptions": {
+      "beginner": "Mwanzo - bado najifunza",
+      "intermediate": "Wastani - naelewa Bitcoin vizuri",
+      "advanced": "Juu - nina maarifa ya kina",
+      "expert": "Mtaalam - uelewa wa juu sana"
+    },
+    "select": {
+      "country": "Chagua nchi",
+      "timezone": "Chagua saa za eneo",
+      "language": "Chagua lugha",
+      "generic": "Chagua"
+    },
+    "maxWords": "(kiwango cha juu maneno 200)",
+    "wordsCount": "maneno {{current}} / {{max}}"
+  },
+  "brand": {
+    "prefix": "Afrika",
+    "highlight": "Bitcoin"
+  },
+  "landing": {
+    "nav": {
+      "logoSuffix": ".",
+      "program": "Programu",
+      "whyAfrica": "Kwa nini Afrika",
+      "howItWorks": "Inavyofanya kazi",
+      "faq": "Maswali",
+      "applyNow": "Omba sasa"
+    },
+    "hero": {
+      "eyebrow": "Barani kote · Lugha nyingi · Bure",
+      "titleLine1": "Jifunze Bitcoin.",
+      "titleLine2": "Fundisha Afrika.",
+      "titleEmphasis": "Kwa lugha yako.",
+      "description": "Jiunge na mtandao wa kielimu wa Bitcoin unaojenga ujuzi wa kiufundi barani Afrika kwa lugha ambazo watu wanafikiria. Wanafunzi kuwa waalimu. Elimu inaongezeka.",
+      "applyAmbassador": "Omba kama balozi",
+      "exploreProgram": "Chunguza programu",
+      "cardTitle": "Programu kwa ufupi",
+      "statNumberCountries": "12+",
+      "statNumberLanguages": "5–10",
+      "statNumberWeeks": "wiki 12",
+      "statNumberFree": "Bure",
+      "statCountries": "Nchi · Nigeria, Ghana, Kamerun, Cote d'Ivoire, Senegal, Togo, Misri, Kenya, Uganda, Tanzania + zaidi",
+      "statLanguages": "Lugha za Kiafrika · Luganda, Kikuyu, Twi, Kiswahili, Kifaransa…",
+      "statSchedule": "Programu ya kikundi · dakika 90/wiki + masaa 10 ya kusoma",
+      "statFree": "jifunze bila gharama"
+    },
+    "programSection": {
+      "label": "Ni kwa nan?",
+      "title": "Kuna nafasi kwa ajili yako",
+      "description": "Iwe unataka kujifunza, kufundisha, au kuongeza elimu ya Bitcoin, mtandao umejengwa kwa ajili yako.",
+      "tabLearners": "Wanafunzi",
+      "tabEducators": "Waalimu",
+      "tabPartners": "Washirika",
+      "students": {
+        "title": "Anza kujifunza Bitcoin kwa lugha yako",
+        "body": "Elimu ya Bitcoin ya bure na yenye mpango kwa Waafrika. Jifunze blockchain, cryptography, uchumi, na coding. Hakuna uzoefu unaohitajika, ila nia ya kuelewa na kushiriki.",
+        "applyCta": "Omba kama balozi",
+        "tileCommitment": "Kujitolea",
+        "tileCommitmentValue": "Dakika 90/wiki + masaa 10 ya kusoma",
+        "tileWhat": "Unajifunza nini",
+        "tileWhatValue": "Bitcoin · AI · Cryptography · Uchumi · Coding",
+        "tileWho": "Nani anaweza kuomba",
+        "tileWhoValue": "Hakuna uzoefu unaohitajika",
+        "colWhoTitle": "Nani anaweza kuomba",
+        "colWhoItems": [
+          "Wanafunzi wa sekondari, chuo, au waliomaliza",
+          "Yeyote anayetamani kujifunza Bitcoin, bila maarifa ya awali",
+          "Tayari kushiriki maarifa kwa lugha ya kwako",
+          "Mzuri katika angalau lugha 2 (Kiingereza pamoja)",
+          "Mtandao wa kuaminika na kompyuta au simu mahiri"
+        ],
+        "colLangTitle": "Lugha tunazoaunga mkono",
+        "pillEnglish": "Kiingereza",
+        "pillFrench": "Kifaransa",
+        "pillMore": "+ Zaidi",
+        "colCountriesTitle": "Nchi tunazofanya kazi",
+        "countryNigeria": "Nigeria",
+        "countryGhana": "Ghana",
+        "countryKenya": "Kenya",
+        "countryUganda": "Uganda",
+        "countryTanzania": "Tanzania"
+      },
+      "teachers": {
+        "title": "Kuwa mwalimu wa Bitcoin anayetambuliwa",
+        "body": "Jiunge na mtandao wa walimu. Fundisha kundi la wanafunzi 8–12, badilisha mtaala kwa lugha za eneo, na jenga kizazi kijacho cha waalimu wa Bitcoin barani Afrika. Lipwa kwa utaalamu wako.",
+        "applyCta": "Omba kama mwalimu",
+        "tilePersonas": "Aina za walimu",
+        "tilePersonasValue": "Mtaalamu · Mtaalamu wa kiufundi · Profesa · Mratibu wa matukio",
+        "tileCohort": "Ukubwa wa kundi",
+        "tileCohortValue": "Wanafunzi 8–12 kwa kila mwalimu",
+        "tileSupport": "Msaada na malipo",
+        "tileSupportValue": "Simu za kila wiki · Mtaala · $5–10/saa",
+        "colWhoTitle": "Nani anapaswa kuomba",
+        "colWhoItems": [
+          "Waalimu na watafsiri wa lugha mbili",
+          "Walimu wa sekondari na vyuo",
+          "Wandaaji wa jamii na mikutano",
+          "Wataalamu wa Bitcoin au teknolojia",
+          "Wasanidi programu wanaotaka kushiriki maarifa"
+        ],
+        "colJourneyTitle": "Hatua za mwalimu",
+        "journeyPhase1": "Awamu 1 - Utambulisho:",
+        "journeyPhase1Body": "Karibu, mafunzo ya mfumo, jaribio la kufundisha",
+        "journeyPhase2": "Awamu 2 - Endesha kundi:",
+        "journeyPhase2Body": "Ongoza vikao vya kila wiki, badilisha maudhui, ukaguzi mara mbili kwa wiki",
+        "journeyPhase3": "Awamu 3 - Tathmini na ukuaji:",
+        "journeyPhase3Body": "Kusanya maoni, boresha mtaala, mwongoze kundi linalofuata"
+      },
+      "partners": {
+        "title": "Panua elimu ya Bitcoin barani Afrika",
+        "body": "Jenga pamoja mtandao wa Bitcoin unaoweka lugha kwanza. Saidia mtaala, matukio, miundombinu, na ukuaji wa mabalozi katika nchi 7+.",
+        "cta": "Chunguza ushirikiano",
+        "tileReach": "Ufikiaji wetu",
+        "tileReachValue": "Nchi 7 · miji 12–14 · mabalozi 56+",
+        "tileOpportunity": "Fursa",
+        "tileOpportunityValue": "Lugha kwanza · Mizizi · Inaweza kupanuka",
+        "tileHub": "Kituo kikuu",
+        "tileHubValue": "Librería de Satoshi - maudhui na utaalamu",
+        "colOppTitle": "Fursa za ushirikiano",
+        "colOppItems": [
+          "Uundaji wa pamoja wa mtaala na ufadhili wa maudhui",
+          "Msaada wa matukio na mikutano",
+          "Mishahara ya mabalozi na ufadhili wa miundombinu",
+          "Utafiti, data, na chapa za pamoja",
+          "Tafsiri na ujanibishaji wa lugha"
+        ],
+        "colWhoTitle": "Nani anapaswa kushirika nasi",
+        "pillNgo": "NGO",
+        "pillUni": "Vyuo",
+        "pillBitcoin": "Taasisi za Bitcoin",
+        "pillTech": "Makampuni ya teknolojia",
+        "pillGrants": "Wafadhili"
+      }
+    },
+    "howSection": {
+      "label": "Mfano",
+      "title": "Programu inavyofanya kazi",
+      "description": "Programu ya miezi mitatu kutoka mwanafunzi hadi balozi hadi mwalimu.",
+      "cards": [
+        {
+          "title": "Kujifunza kwa makundi",
+          "body": "Vikundi vidogo nchi nyingi. Vikao vya mwongozo na ufuatiliaji wa kila wiki: maendeleo halisi, sio kutazama tu."
+        },
+        {
+          "title": "Mafunzo ya kiufundi ya vitendo",
+          "body": "Mazoezi ya msingi wa Bitcoin, cryptography, msingi wa coding, na zana za chanzo wazi. Ujuzi halisi, sio uso tu."
+        },
+        {
+          "title": "Chujio la uthibitisho wa kazi",
+          "body": "Wanafunzi wanasonga mbele kwa kufaulu tathmini, sio tu kuhudhuria. Maendeleo yanastahiliwa, na hivyo hati ya kukamilisha ina maana."
+        },
+        {
+          "title": "Ujanibishaji na lugha kwanza",
+          "body": "Mabalozi wa lugha mbili wanatafsiri na kuweka muktadha kila moduli. Kundi lako linajifunza kwa lugha unayofikiria."
+        },
+        {
+          "title": "Kutoka mwanafunzi hadi mwalimu",
+          "body": "Wanaoonyesha uwezo wanapata zana, mtaala, na msaada kuongoza kundi lao. Elimu inaongezeka kanda kwa kanda."
+        },
+        {
+          "title": "Utambuzi",
+          "body": "Ukimaliza, unapata hati rasmi ya kukamilisha ya LinkedIn, mtandao wa waalimu, na kipaumbele cha misaada barani Afrika."
+        }
+      ]
+    },
+    "benefitsSection": {
+      "label": "Unachopata",
+      "title": "Faida za kujiunga",
+      "description": "Si kozi ya kukaa tu. Unaondoka kama mwalimu wa kiufundi na mtandao na hati halisi ya kukamilisha.",
+      "cards": [
+        {
+          "title": "Mwalimu anayetambuliwa",
+          "body": "Pata hati ya kukamilisha inayokutambua kama mwalimu wa Bitcoin na chanzo wazi barani Afrika."
+        },
+        {
+          "title": "Pata unapojifunza",
+          "body": "Tuzo, misaada, na manufaa ya kiuchumi kwa ushiriki wako wa programu."
+        },
+        {
+          "title": "Mafunzo ya kulipwa",
+          "body": "Walio bora hupata nafasi za internship zinazolipwa katika teknolojia na chanzo wazi."
+        },
+        {
+          "title": "Jamii ya dunia na fursa",
+          "body": "Unganisha na waalimu na viongozi wa Bitcoin duniani; ufadhili wa vyuo, mikutano, na ukaaji wa kimataifa."
+        },
+        {
+          "title": "Mafunzo ya teknolojia ya kisasa",
+          "body": "Vitendo: Bitcoin, cryptography, blockchain, coding, AI, na zana za chanzo wazi muhimu leo na kesho."
+        },
+        {
+          "title": "Portfolio ya kimataifa",
+          "body": "Jenga portfolio halisi inayoonekana katika nyanja ya teknolojia duniani."
+        }
+      ]
+    },
+    "faqSection": {
+      "label": "Maswali",
+      "title": "Maswali yanayoulizwa mara kwa mara",
+      "items": [
+        {
+          "question": "Bitcoin ni nini, na kwa nini ni muhimu kwa Afrika?",
+          "answer": "Bitcoin ni sarafu ya kidijitali inayokuruhusu kutuma na kupokea pesa bila benki au wapatanishi. Inaendeshwa na mtandao usioratibiwa unaoitwa blockchain, ambapo miamala inathibitishwa duniani na kuandikwa kwenye ledha ya umma ambayo hakuna chombo kimoja kinachodhibiti. Afrika, ambapo mamilioni hawana huduma za benki za kawaida, Bitcoin inaweza kuwa miundombinu ya kifedha kwa kila mtu."
+        },
+        {
+          "question": "Je, nahitaji uzoefu wa Bitcoin au teknolojia?",
+          "answer": "Hapana. Programu imeundwa kwa wanafunzi wenye motisha kuanzia sufuri. Muhimu ni kuhudhuria, kusoma masaa 10–20 kwa wiki peke yako, na kutaka baadaye kushiriki ulichojifunza na jamii yako."
+        },
+        {
+          "question": "Je, programu ni bure kweli?",
+          "answer": "Ndiyo, bure kabisa kwa wanafunzi wote. Dhamira yetu ni kuondoa kila kizuizi cha elimu bora. Gharama haipaswi kuwa moja yao. Programu inafadhiliwa kwa misaada na msaada wa mfumo wa Bitcoin kwa elimu huria."
+        },
+        {
+          "question": "Kwa nini nahitaji kuzungumza lugha mbili?",
+          "answer": "Msingi wa programu ni ujanibishaji: kufanya elimu ya Bitcoin iweze kufikiwa na jamii zisizozungumza Kiingereza. Mabalozi wanaoelewa angalau lugha mbili (pamoja na Kiingereza) hunanga mkono kwa kundi linalofuata. Hii sio kizuizi; ni nguvu yako katika mtandao huu."
+        },
+        {
+          "question": "Nini kitatokea baada ya kumaliza programu?",
+          "answer": "Wanafunzi bora hutambuliwa kwa tathmini na wenzao. Wanaoonyesha uwezo wa kufundisha wanakaribishwa kuongoza kundi la wanafunzi 8–12 kwa lugha yao, katika jamii yao. Unapata msaada wa mtaala, rasilimali za mwalimu, na malipo ($5–10/saa). Elimu inaendelea kuongezeka."
+        },
+        {
+          "question": "Je, Bitcoin ni halali katika nchi yangu?",
+          "answer": "Hali ya kisheria ya Bitcoin inatofautiana kila nchi. Nchi nyingi za Afrika Bitcoin ni halali kumiliki na kutumia, lakini sheria zinatofautiana. Programu inafundisha msingi wa kiufundi na jinsi ya kuelewa mazingira ya kisheria katika eneo lako kwa usalama."
+        }
+      ]
+    },
+    "cta": {
+      "titleLine1": "Uko tayari kuwa sehemu ya",
+      "titleLine2": "mustakabali wa Bitcoin",
+      "titleEmphasis": "wa Afrika?",
+      "description": "Iwe umeja kujifunza, kufundisha, au kuwekeza katika dhamira hii, kuna nafasi kwa ajili yako. Jiunge na mtandao unaojenga elimu ya Bitcoin kutoka chini, kwa kila lugha ya Kiafrika.",
+      "applyLearner": "Omba kama mwanafunzi",
+      "becomeTutor": "Kuwa mwalimu",
+      "partnerWithUs": "Shirika nasi"
+    }
+  },
+  "unifiedFooter": {
+    "newsletterTitle": "Endelea kupokea habari za elimu ya Bitcoin barani Afrika",
+    "newsletterDescription": "Pata masasisho ya programu, hadithi za mabalozi, na rasilimali kwenye barua pepe yako.",
+    "emailPlaceholder": "Ingiza barua pepe yako",
+    "subscribe": "Jisajili",
+    "subscribing": "Inajisajili…",
+    "subscribeSuccess": "Umejisajili. Angalia barua pepe yako kuthibitisha.",
+    "subscribeError": "Hitilafu imetokea. Tafadhali jaribu tena.",
+    "invalidEmail": "Tafadhali ingiza anwani halali ya barua pepe.",
+    "consent": "Tunaiheshimu faragha yako. Jisajili nje wakati wowote.",
+    "privacyPolicy": "Sera ya faragha",
+    "columnProgram": "Programu",
+    "columnLearn": "Jifunze",
+    "columnExplore": "Chunguza",
+    "columnConnect": "Unganisha",
+    "linkLearners": "Wanafunzi",
+    "linkEducators": "Waalimu",
+    "linkPartners": "Washirika",
+    "linkApplyNow": "Omba sasa",
+    "linkBitcoinBasics": "Misingi ya Bitcoin",
+    "linkResources": "Rasilimali",
+    "linkBlog": "Blogu",
+    "linkLibreria": "Librería de Satoshi",
+    "linkDocumentation": "Nyaraka",
+    "linkFaq": "Maswali",
+    "linkContact": "Mawasiliano",
+    "connectBlurb": "Jiunge na jamii yetu barani Afrika.",
+    "bottomLead": "Africa Bitcoin Education",
+    "bottomTagline": "Kujenga ujuzi wa kiufundi barani Afrika kwa kila lugha.",
+    "copyright": "Hakimiliki {{year}} Africa Bitcoin Education. Haki zote zimehifadhiwa.",
+    "legalPrivacy": "Faragha",
+    "legalTerms": "Masharti ya huduma",
+    "legalConduct": "Kanuni za tabia",
+    "ariaTwitter": "Twitter",
+    "ariaTelegram": "Telegram",
+    "ariaYoutube": "YouTube",
+    "ariaDiscord": "Discord"
+  }
+}

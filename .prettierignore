@@ -1,0 +1,10 @@
+dist/
+node_modules/
+.vite/
+public/
+
+# ISMOS kit: copied from the design system, keep byte-identical for upstream sync
+design/ismos/
+scripts/build-tokens*.mjs
+scripts/check-ismos*.mjs
+.claude/skills/ismos-ui/

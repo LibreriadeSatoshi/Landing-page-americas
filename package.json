@@ -1,0 +1,54 @@
+{
+  "name": "libreria-temp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:fast": "vitest run tests/translation-completeness.test.ts",
+    "test:ismos": "node --test scripts/build-tokens.test.mjs scripts/check-ismos.test.mjs",
+    "ismos:tokens": "node scripts/build-tokens.mjs",
+    "ismos:check": "node scripts/check-ismos.mjs index.html src/index.css src/App.tsx src/main.tsx src/components/LandingPage.tsx src/components/LandingPage.css src/components/ApplicationWizard.tsx src/components/ApplicationWizard.css src/components/Header.tsx src/components/Header.css src/components/LanguageSwitcher.tsx src/components/LanguageSwitcher.css src/components/UnifiedFooter.tsx src/components/UnifiedFooter.css src/constants src/locales",
+    "ci": "npm run build && npm run format:check && npm run test",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,css,json,md}": "prettier --write"
+  },
+  "dependencies": {
+    "i18next": "^26.0.4",
+    "iconoir-react": "^7.11.0",
+    "lucide-react": "^0.577.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-hook-form": "^7.71.2",
+    "react-i18next": "^17.0.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@types/node": "^24.12.2",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.0",
+    "autoprefixer": "^10.4.27",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "postcss": "^8.5.8",
+    "prettier": "^3.8.2",
+    "tailwindcss": "^3.4.19",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.56.1",
+    "vite": "^8.0.5",
+    "vitest": "^4.1.4"
+  }
+}

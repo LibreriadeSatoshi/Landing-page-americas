@@ -1,0 +1,15 @@
+#!/usr/bin/env sh
+set -e
+
+branch=$(git rev-parse --abbrev-ref HEAD)
+if [ "$branch" = "main" ] || [ "$branch" = "master" ]; then
+  echo ""
+  echo "✗ Direct push to '$branch' is not allowed."
+  echo "  Create a branch: git checkout -b feature/your-change"
+  echo "  Then open a Pull Request for review."
+  echo ""
+  exit 1
+fi
+
+echo "▶ Running TypeScript check before push..."
+npx tsc -b --noEmit
